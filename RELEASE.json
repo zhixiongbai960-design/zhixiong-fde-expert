@@ -1,0 +1,34 @@
+{
+  "legacy_compatibility": "Existing zhxbai-fde 0.4.2 remains a separate frozen package, not an alias.",
+  "legacy_name": "zhxbai-fde",
+  "method_baseline_version": "0.5.0",
+  "method_source_fingerprint": "dc09be4c5ef46df0e6d1a4dea17e60ce0e43d4ded5bf1642223c4b68083d49c1",
+  "name": "zhixiong-fde-expert",
+  "schema_version": 1,
+  "version": "0.5.0",
+  "display_name": "FDE 实战专家技能",
+  "distribution_revision": 1,
+  "distribution_repository": "https://github.com/zhixiongbai960-design/zhixiong-fde-expert",
+  "package_root": ".",
+  "method_source": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide/tree/2d80e9aea9c20f0aca93fd27c09c7de7256d1344/skill-source/src",
+  "upstream_package": {
+    "repository": "https://github.com/zhixiongbai960-design/zhixiong-fde-guide",
+    "commit": "2d80e9aea9c20f0aca93fd27c09c7de7256d1344",
+    "path": "skills/zhixiong-fde-expert",
+    "build_inputs_sha256": {
+      "docs/专家技能使用说明.md": "17c05f9542209429f670ad974434a42e833a78a48c75ee9f630a7df17c65e67e",
+      "packaging/expert.json": "ffeb153b185d4ee8f1872b466f01573ecb4486d9a78af6d7f824f470541ac2cd",
+      "tools/package_expert.py": "8831da4c08c3b53c3c646a06cc4276f76036657a326b6d0392c3ecc54f78d301"
+    }
+  },
+  "distribution_changes": [
+    "Standalone repository with the complete skill at the repository root.",
+    "Rewrite README, state the primary scope of projects below 200,000 yuan as requested, and change the human-facing title. Amount tiers are experiential references, not hard thresholds.",
+    "Preserve method, article, license, template and historical QA bytes."
+  ],
+  "distribution_files_sha256": {
+    "README.md": "36f1a0caa8059a8fa80134e05dfea1bda66372341f7f1720c5a7dd38d657e04a",
+    "SKILL.md": "e8de6f7c9ba165fb22bbabf611aa19b10a58582bdc071cc24fcf782bc35ef1c6",
+    "agents/openai.yaml": "c024b31296a1c4af14099d5ebe98e8f79ec2ffe420678f4ad2f4ca85348b2c87"
+  }
+}
