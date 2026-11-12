@@ -1,4 +1,4 @@
 interface:
   display_name: "FDE 实战专家技能"
-  short_description: "从客户需求到验证交付，基于志雄公开方法推进当前 FDE 项目"
-  default_prompt: "请使用 $zhixiong-fde-expert，根据我提供的项目现状，判断当前卡点和下一步。"
+  short_description: "经验优先，按需查证，贯通课堂成果与项目复盘"
+  default_prompt: "请使用 $zhixiong-fde-expert，先判断我的当前问题，再给可用建议或成果。"

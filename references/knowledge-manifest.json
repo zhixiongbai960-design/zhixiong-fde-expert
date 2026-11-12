@@ -1,0 +1,2584 @@
+{
+  "schema_version": 1,
+  "source_title": "FDE 全流程知识与方法蓝本",
+  "source_date": "2026-11-11",
+  "source_sha256": "5982e75edf5e8d63d53da8bd086218cfe02ef9ef89743384e0810d8554300375",
+  "distribution": "public skill release authorized by author on 2026-11-12; existing license retained",
+  "atoms": [
+    {
+      "id": "f01-001",
+      "title": "1.1　FDE：前沿部署工程师",
+      "file": "knowledge__f01-001.md",
+      "source_char_range": [
+        9661,
+        10410
+      ],
+      "source_segment_sha256": "5c450976bb60e2aa8c309f0bdae12ec0ba1ecd1ae13d035b797cca629d00fcaa",
+      "packaged_sha256": "aa88043ccee1d78478fed8be51bbdbd95c0bb4a2783729413e269577c8369b02"
+    },
+    {
+      "id": "f01-002",
+      "title": "1.2　内部 FDE 与 FDE OPC（外部 FDE）",
+      "file": "knowledge__f01-002.md",
+      "source_char_range": [
+        10410,
+        11312
+      ],
+      "source_segment_sha256": "0629fc781dd0203610d995f447ad96e5f44b8c07652458b5ffaeaef69667430b",
+      "packaged_sha256": "ef9bb82c2d13a98e615df94a0bbb0bb46f9823d05e8fd07567e82763e506522a"
+    },
+    {
+      "id": "f01-005",
+      "title": "1.3　内部 FDE 与 FDE OPC 怎样组织协作",
+      "file": "knowledge__f01-005.md",
+      "source_char_range": [
+        11312,
+        12293
+      ],
+      "source_segment_sha256": "7394a8326d1466edb8e6dd64deedda7de70af61fb0ccb24e9a924fbfe1df6c66",
+      "packaged_sha256": "78b4a241f0efd92108ef029f3edb86186f44ea8ff46ef6484aae447768202091"
+    },
+    {
+      "id": "f01-004",
+      "title": "1.4　Echo 与 Delta：判断能力与工程执行能力",
+      "file": "knowledge__f01-004.md",
+      "source_char_range": [
+        12293,
+        12992
+      ],
+      "source_segment_sha256": "0b621fcaa5016930cd3426c0014851521321b2fd7957907356f07f13332917a1",
+      "packaged_sha256": "6eda1b32cc70965107a1570f9cc1e89168dfbc47d6e7ecdf63c18ddaa24e8546"
+    },
+    {
+      "id": "f01-006",
+      "title": "1.5　理解业务、定义任务、构建与调优",
+      "file": "knowledge__f01-006.md",
+      "source_char_range": [
+        12992,
+        13943
+      ],
+      "source_segment_sha256": "10a33c964a0b6306f264193a36eaf55762107da711112d2be993a0cf0e5e6abc",
+      "packaged_sha256": "cb2e2879b2f9dcb669a145bda929e698425bfd4f56c98009db14c6cd038674e3"
+    },
+    {
+      "id": "f03-001",
+      "title": "2.1　新业务的业务与技术双重不确定性",
+      "file": "knowledge__f03-001.md",
+      "source_char_range": [
+        13943,
+        14569
+      ],
+      "source_segment_sha256": "82751a890f8502ccb93547e2588a8f2933cf45a1c1c2a37ce42ce0438c899d36",
+      "packaged_sha256": "9824895245ef613816eb3b92bd9efa7ee4e282005fed7c325f200207ebae6b7f"
+    },
+    {
+      "id": "f01-003",
+      "title": "2.2　AI 对项目交付成本的影响",
+      "file": "knowledge__f01-003.md",
+      "source_char_range": [
+        14569,
+        15191
+      ],
+      "source_segment_sha256": "662d99c03e5df36858753d863b913f07be420e9ad94b58f3105766561a2dc48b",
+      "packaged_sha256": "8be0d07ad48e793dc677d6ae55086784b222a9443b5815d4fa698b73793e7c3e"
+    },
+    {
+      "id": "f08-011",
+      "title": "2.3　局部节约、产能释放与组织价值",
+      "file": "knowledge__f08-011.md",
+      "source_char_range": [
+        15191,
+        15961
+      ],
+      "source_segment_sha256": "8ad077caeca85aaa92b7a0fbb98a1ad11116e8efb9e87a0a79fbf1fb81808288",
+      "packaged_sha256": "99f112bfca5f8c1c1d75c57cda89c580df03735efb97a93c3c7e3e4066b601b4"
+    },
+    {
+      "id": "f03-003",
+      "title": "2.4　Demo、POC 与对照试用的使用条件",
+      "file": "knowledge__f03-003.md",
+      "source_char_range": [
+        15961,
+        16851
+      ],
+      "source_segment_sha256": "3997818e75e91832f0c1973ce0d911a4b34f8bd514b518c58da6c8a479706e8f",
+      "packaged_sha256": "52f748cd8b2456f65ebcfd64c46b5352b1e89128c93fe9f04d127a4de4409703"
+    },
+    {
+      "id": "f03-008",
+      "title": "2.5　PEV 原型—实证—验证循环框架",
+      "file": "knowledge__f03-008.md",
+      "source_char_range": [
+        16851,
+        17551
+      ],
+      "source_segment_sha256": "92c1637dde70e46c60dbe1cadcdd30e66e51e83eec69201136674f9b0d3d2977",
+      "packaged_sha256": "d1518ebaa7641b293a458311fec11d034426ce9ca799b0d1b5c04b902e0b835f"
+    },
+    {
+      "id": "f03-018",
+      "title": "2.6　L0–L4：从场景识别到规模扩展",
+      "file": "knowledge__f03-018.md",
+      "source_char_range": [
+        17551,
+        18361
+      ],
+      "source_segment_sha256": "1d295298166bb2bc311b04ee76f530a3c04e5d3698a34524627f0c968db43947",
+      "packaged_sha256": "ca877c5eb8c17f1149adc4caa48ef9d866b206e52ddff094b72f155aa593b53f"
+    },
+    {
+      "id": "f01-011",
+      "title": "2.7　实施：把可用结果接入业务工作流",
+      "file": "knowledge__f01-011.md",
+      "source_char_range": [
+        18361,
+        18945
+      ],
+      "source_segment_sha256": "452fd28a9b6d7c8147e1d8300a401ba1f9d5ecafd263de916724799d4f5d3861",
+      "packaged_sha256": "3e9af044696e50ba943e5d919c800958e55c9b6c6870677dac0068c08f616c4f"
+    },
+    {
+      "id": "f01-012",
+      "title": "2.8　咨询：为选择提供有依据的判断",
+      "file": "knowledge__f01-012.md",
+      "source_char_range": [
+        18945,
+        19529
+      ],
+      "source_segment_sha256": "864f5c2d663fb5e98365910919d59c3ddbace865e794f83e268db79bd69844fb",
+      "packaged_sha256": "3425693e4e96dff3eb1c81423152d86bd22d47e85cacdbadd0c543f33228eb21"
+    },
+    {
+      "id": "f01-009",
+      "title": "2.9　按客户能力缺口选择服务形式",
+      "file": "knowledge__f01-009.md",
+      "source_char_range": [
+        19529,
+        20277
+      ],
+      "source_segment_sha256": "fb1c7aa8dd30c9cda5e0469b8dc0d872ab243845c3c1ce0cb2c991fc53453b12",
+      "packaged_sha256": "2d4940ea88db17d17fada47bc3af6758ca9361d7cb81a6058b92f159c463926a"
+    },
+    {
+      "id": "f01-007",
+      "title": "2.10　项目风险与能力缺口映射法",
+      "file": "knowledge__f01-007.md",
+      "source_char_range": [
+        20277,
+        21009
+      ],
+      "source_segment_sha256": "734671743837bc7a594cc7404c30d720aaed20274793252e848b54418a62a0f9",
+      "packaged_sha256": "a085df3e271ca18bc7563252c2dbdb426816d0a66ed95827a5aa143f79e4d433"
+    },
+    {
+      "id": "f01-008",
+      "title": "2.11　按项目产物倒推学习顺序法",
+      "file": "knowledge__f01-008.md",
+      "source_char_range": [
+        21009,
+        21894
+      ],
+      "source_segment_sha256": "e38d0c0534918e130c84761d10d6098fe4b364aa4f8261337899fa28e23cd063",
+      "packaged_sha256": "12930a51a363d8e74654cc1c39c321745493085fecb1ee288794bd4b8dfe7917"
+    },
+    {
+      "id": "f05-001",
+      "title": "3.1　客户端与服务端",
+      "file": "knowledge__f05-001.md",
+      "source_char_range": [
+        21894,
+        22398
+      ],
+      "source_segment_sha256": "a132c80812797c049a3017a771a68eaf47535e3d8e6809afc05e5ed0cdb8a19e",
+      "packaged_sha256": "efb09a150e29484af815960f0e4d8ec5c49ceb910033ec0648c7d4d0db9e5be8"
+    },
+    {
+      "id": "f05-002",
+      "title": "3.2　程序运行、内存与持久化存储",
+      "file": "knowledge__f05-002.md",
+      "source_char_range": [
+        22398,
+        23027
+      ],
+      "source_segment_sha256": "04b4fbed45dcf758749fc542dcbaaec2b90cd63daa5f765c664292eebff3a54a",
+      "packaged_sha256": "7765b8facdc2fee2825f0d6c1226892821bb376a74a2b22f26f02dedbad2bc68"
+    },
+    {
+      "id": "f05-003",
+      "title": "3.3　数据字段、类型与数据契约",
+      "file": "knowledge__f05-003.md",
+      "source_char_range": [
+        23027,
+        23667
+      ],
+      "source_segment_sha256": "1ad8d11c36269abe567997b26274e622934b000432eb16c282517474396b85f9",
+      "packaged_sha256": "379920231d8096b8fb95f565ea09d48e35f1709c18f99c1a7e8e21a46c1ac9bf"
+    },
+    {
+      "id": "f05-004",
+      "title": "3.4　API 与 HTTP 请求响应",
+      "file": "knowledge__f05-004.md",
+      "source_char_range": [
+        23667,
+        24327
+      ],
+      "source_segment_sha256": "b56f8c5bd7dbfb7a1ac817494ac7b1082f8d7b48e7a436f5b3bef254c674d29d",
+      "packaged_sha256": "fe1c20390f056b41aa6824306fe38c402e1a5142e584d382ccae6b0c67039a7a"
+    },
+    {
+      "id": "f05-006",
+      "title": "3.5　JSON、Schema 与结构校验",
+      "file": "knowledge__f05-006.md",
+      "source_char_range": [
+        24327,
+        25037
+      ],
+      "source_segment_sha256": "5f6d746439216a65d7a31ceeda422ad2a0dcc555359d79d8546dfa57ef1cbae8",
+      "packaged_sha256": "5e8c909af2043c6cc36fdef0f439f56696fa16952c6ad9275f4bc166294af67b"
+    },
+    {
+      "id": "f05-041",
+      "title": "3.6　身份认证与操作授权",
+      "file": "knowledge__f05-041.md",
+      "source_char_range": [
+        25037,
+        25562
+      ],
+      "source_segment_sha256": "1aa6361739d9f6842ecec0af0d25b450d4ede72e65c267748333cb6b29d9f004",
+      "packaged_sha256": "47692e4a369f035f3ef089d846527d3b623d767c2a32ba91750d55404280fdcd"
+    },
+    {
+      "id": "f05-005",
+      "title": "3.7　网络可达、身份有效、权限满足与业务成功",
+      "file": "knowledge__f05-005.md",
+      "source_char_range": [
+        25562,
+        26195
+      ],
+      "source_segment_sha256": "08a36fdca1bc600be605160c356ba3d6c9d0ad76fcd1e28ab3972844b9323c7b",
+      "packaged_sha256": "5cf6f78081549cd7479b8b9766c659b92dbade62e68dc241ccc106d109c3556a"
+    },
+    {
+      "id": "f05-010",
+      "title": "3.8　语言模型的能力与事实边界",
+      "file": "knowledge__f05-010.md",
+      "source_char_range": [
+        26195,
+        26772
+      ],
+      "source_segment_sha256": "df284cea896410e405b1ce97f18504e1390865f474fb3cb8b1ef14c516a1d37b",
+      "packaged_sha256": "f9c98fb6a0fc4686b69969164180ef1ff1f161a252663feab639e3d393db3dea"
+    },
+    {
+      "id": "f05-013",
+      "title": "3.9　模型 token 与访问令牌",
+      "file": "knowledge__f05-013.md",
+      "source_char_range": [
+        26772,
+        27464
+      ],
+      "source_segment_sha256": "9dd6959450874a0def9d1f732de669acd380fb7e4254224727160a58f74426d0",
+      "packaged_sha256": "8c4b503c54ae44897d4065d33659f55d0017d3bfceffde67f272591d2733aa96"
+    },
+    {
+      "id": "f05-011",
+      "title": "3.10　Agent 与预定义工作流",
+      "file": "knowledge__f05-011.md",
+      "source_char_range": [
+        27464,
+        28077
+      ],
+      "source_segment_sha256": "e56f8806c9e142b3579eaabb58d3e9b8750e22ad90f66db46720b75112bcc8dc",
+      "packaged_sha256": "eafce4c61b269dacfb4efb2b53d57e93d81f98271925e070965ce1c49f811096"
+    },
+    {
+      "id": "f05-012",
+      "title": "3.11　工具调用与实际业务操作",
+      "file": "knowledge__f05-012.md",
+      "source_char_range": [
+        28077,
+        28755
+      ],
+      "source_segment_sha256": "28173d40f518cb9a1c1aef002a274e1f5488184ebc65081a388fca5072abcc8c",
+      "packaged_sha256": "e5eefe04699c5efb9637fcffa29b2561a7ee2df47d31f87cc2da1249888d0a4d"
+    },
+    {
+      "id": "f05-034",
+      "title": "3.12　Skill 的构成与适用边界",
+      "file": "knowledge__f05-034.md",
+      "source_char_range": [
+        28755,
+        29443
+      ],
+      "source_segment_sha256": "4f2e2ca4ad6b79a2f9dba2de7f261a323966cfcf82491e1463ceea463496a5d6",
+      "packaged_sha256": "8988b30c6106e9ff2fd45903438d02a6df1eb7e1345fce5c5847d1b6824f624b"
+    },
+    {
+      "id": "f05-016",
+      "title": "3.13　交互、逻辑与数据的职责划分",
+      "file": "knowledge__f05-016.md",
+      "source_char_range": [
+        29443,
+        30081
+      ],
+      "source_segment_sha256": "02557fceb3fb6b508e7d2646b52754b9ff502d69160f2be09c288c918acbd802",
+      "packaged_sha256": "505af542d50938d76d8b7542cad82735ef901b3e5fbc684a35565577bd7a79ab"
+    },
+    {
+      "id": "f05-017",
+      "title": "3.14　Agent 与 Skill 的职责边界",
+      "file": "knowledge__f05-017.md",
+      "source_char_range": [
+        30081,
+        30640
+      ],
+      "source_segment_sha256": "6c396152762bcac4d79fb66b583d64a4ce1ecdd3293e30abcf1ebcaefb0ff4fd",
+      "packaged_sha256": "b393c8bfe2a487d54ca1ebd127923d02c83c5fc4b4d72e37b062150d0e0a3cb4"
+    },
+    {
+      "id": "f05-014",
+      "title": "3.15　API、连接器与 MCP 的关系",
+      "file": "knowledge__f05-014.md",
+      "source_char_range": [
+        30640,
+        31356
+      ],
+      "source_segment_sha256": "4f767bf8f74093c096367939904c17b13067ee38e9559ab5ee2a5dd5ce11ced0",
+      "packaged_sha256": "bc677c095689cc6c71577cee1c3f1fcddc8c5a034fd6ae6d3c14a1cb42c6f915"
+    },
+    {
+      "id": "f05-015",
+      "title": "3.16　Agent 定义、运行环境与会话",
+      "file": "knowledge__f05-015.md",
+      "source_char_range": [
+        31356,
+        31959
+      ],
+      "source_segment_sha256": "f5440c4614b18999c26b94f3b6205e4e12907cdc2c67122e0922a7453c21d7be",
+      "packaged_sha256": "f4d4c2b22aefd76f0edf6a0ee693a4a769f31e3b50a5fadeeb27812b6e5c6646"
+    },
+    {
+      "id": "f05-031",
+      "title": "3.17　Harness：模型的运行支持机制",
+      "file": "knowledge__f05-031.md",
+      "source_char_range": [
+        31959,
+        32694
+      ],
+      "source_segment_sha256": "41d762cfe3c9ddda96e6c4f4be828ab8667a1966750bd3e43ec882ed7ae1737a",
+      "packaged_sha256": "33c5b9a4d0e645d257578292873a1602a58636e0e66923f87665ecccba304225"
+    },
+    {
+      "id": "f05-019",
+      "title": "3.18　知识资料、业务事实与两类查询",
+      "file": "knowledge__f05-019.md",
+      "source_char_range": [
+        32694,
+        33374
+      ],
+      "source_segment_sha256": "95d37e403d185d1a7f63ec6eb1d7c6425284812ea1a10b369761c2c202ff356a",
+      "packaged_sha256": "d4828e80285ce1adaae66294753baf7384dac5e26f5dfac7474ecc23cd534bb9"
+    },
+    {
+      "id": "f05-007",
+      "title": "3.19　配置、业务逻辑与凭据的分离",
+      "file": "knowledge__f05-007.md",
+      "source_char_range": [
+        33374,
+        34114
+      ],
+      "source_segment_sha256": "ba12e35e589e255c1a128707a70819eda24ac4c9241028db0a51facae9b07d96",
+      "packaged_sha256": "af773ecab99bf5b10a77fb0207952fd2aec01c61794356297d4445b09dcd17d4"
+    },
+    {
+      "id": "f05-008",
+      "title": "3.20　本地运行与远端部署",
+      "file": "knowledge__f05-008.md",
+      "source_char_range": [
+        34114,
+        34726
+      ],
+      "source_segment_sha256": "719681a58e44632b539ca7efd2125209b3fa3e63d0998506f50c053f98fa595f",
+      "packaged_sha256": "6cc5a2faa8794371257073fe8deba77b602034b47edd2d027db0f024e17b11b4"
+    },
+    {
+      "id": "f05-009",
+      "title": "3.21　版本与可复现条件",
+      "file": "knowledge__f05-009.md",
+      "source_char_range": [
+        34726,
+        35484
+      ],
+      "source_segment_sha256": "ffe4c10af5ba0fb888f419d9cdf09e6e34b286e4f07b42f95f6690a9c65fc532",
+      "packaged_sha256": "33cbb5159df2feeeb99afd75d1fbc5c15c3d61b42ac14b4a4e93d4c8704c813d"
+    },
+    {
+      "id": "f01-015",
+      "title": "4.1　服务表达的五项信息检查法",
+      "file": "knowledge__f01-015.md",
+      "source_char_range": [
+        35484,
+        36061
+      ],
+      "source_segment_sha256": "cf34184a6e56a50be566fe297ee2dcf9f6ea1f7d40120e290d91c5c9afe0f8e3",
+      "packaged_sha256": "0d58abff136bc73b2ffacf675485336f56b8714d33809a1c78ded8ffd90b3cc8"
+    },
+    {
+      "id": "f01-016",
+      "title": "4.2　专业信任与业务授权的区别",
+      "file": "knowledge__f01-016.md",
+      "source_char_range": [
+        36061,
+        36605
+      ],
+      "source_segment_sha256": "1e79b96da8a1b13b69ec72ae3f9a774aa47c41762ec017dab86ccb3601709a3d",
+      "packaged_sha256": "18d8e807752ba53b219e302e472d8ba7acae07bddc1bfe74a913360b1ac42e8f"
+    },
+    {
+      "id": "f01-017",
+      "title": "4.3　信任与实际协作条件",
+      "file": "knowledge__f01-017.md",
+      "source_char_range": [
+        36605,
+        37182
+      ],
+      "source_segment_sha256": "4d9bf02bb6f6bc1131fe60004eade1577efeb0a8726d13b8d42b43a0b8909b60",
+      "packaged_sha256": "d378c6610ab4439b3e98ca3918f0fd123d8fde6010a8c2c052fe8133d54eb6b6"
+    },
+    {
+      "id": "f01-018",
+      "title": "4.4　小承诺兑现与反馈循环法",
+      "file": "knowledge__f01-018.md",
+      "source_char_range": [
+        37182,
+        37782
+      ],
+      "source_segment_sha256": "f451d8c34f2f985dd9769e505ee03a2ca5527a266063a3e2dda0ce1caeedf4c4",
+      "packaged_sha256": "6d8eee0ced5b7861d0f13a592e531464a14b323368cb051cf4b7680c3be9a5ec"
+    },
+    {
+      "id": "f01-019",
+      "title": "4.5　内容、专业与成果的不同证明作用",
+      "file": "knowledge__f01-019.md",
+      "source_char_range": [
+        37782,
+        38376
+      ],
+      "source_segment_sha256": "2c440c78a58eb5c885426c5aa6630eadf4461acda8c4fe3491c966947c987355",
+      "packaged_sha256": "75998f97dce0bcd6c6e559a164489c6fd57e318dbf59ebd967a8a6efa915bcb8"
+    },
+    {
+      "id": "f01-021",
+      "title": "4.6　销售线索的分级投入条件",
+      "file": "knowledge__f01-021.md",
+      "source_char_range": [
+        38376,
+        39083
+      ],
+      "source_segment_sha256": "7e3aa7f4392238a333ed1ea6180d4430b33af21652c7107ebc4d1490fcfc98c8",
+      "packaged_sha256": "037df160ac3e75ab90ecc8797af937ff83cdaf053311fb8b8f8316b7c8bcee5f"
+    },
+    {
+      "id": "f01-022",
+      "title": "4.7　初始需求来源核验法",
+      "file": "knowledge__f01-022.md",
+      "source_char_range": [
+        39083,
+        39677
+      ],
+      "source_segment_sha256": "2932d59bda487b965a0f4ea8c077d6b88747d21a5c7fb53d8c2a67f5d0f50d31",
+      "packaged_sha256": "7efd99b705d397f912fd405bfc0ecd82ba6f1d01e57ea45b928e194c191a1b7b"
+    },
+    {
+      "id": "f01-023",
+      "title": "4.8　预算准备与业务痛点的区别",
+      "file": "knowledge__f01-023.md",
+      "source_char_range": [
+        39677,
+        40228
+      ],
+      "source_segment_sha256": "9cc33d2649ca4e508a987a241e312c90e5fe1d332667fb533e662f4bc59bf0cb",
+      "packaged_sha256": "5776db928eee2931e7e0aa1d9d091ca24d5dfc09fd648547f2f029368cc29123"
+    },
+    {
+      "id": "f01-024",
+      "title": "4.9　客户内部配合与售前深入程度",
+      "file": "knowledge__f01-024.md",
+      "source_char_range": [
+        40228,
+        40947
+      ],
+      "source_segment_sha256": "1e5db8d6cda6750f92f4e8c5f3aacd8508464c2966c86269b21ad4ced9dfdd42",
+      "packaged_sha256": "5a9508487453d1d0dbfcdbb11f2ba98fdaf59f6640da2d6c719b2ef00ceb7b98"
+    },
+    {
+      "id": "f01-013",
+      "title": "4.10　售前沟通与专项服务的边界",
+      "file": "knowledge__f01-013.md",
+      "source_char_range": [
+        40947,
+        41680
+      ],
+      "source_segment_sha256": "6a95ea147426baea887c41dad3f6408680ef8d9e024da08295b5276dbd384af5",
+      "packaged_sha256": "9ccb9df29b0700736b0bbd6225feedbcbc92dd9ba7aad186077f14e813549a92"
+    },
+    {
+      "id": "f01-014",
+      "title": "4.11　渠道合作中的互补角色与交接责任",
+      "file": "knowledge__f01-014.md",
+      "source_char_range": [
+        41680,
+        42218
+      ],
+      "source_segment_sha256": "ab69c63f701e9e116ef543a65917290f986385ba53e4eeccb46f1cf08c20350c",
+      "packaged_sha256": "a5c6936b83b7d2fafe640819bdc9e538cd28412deb7ce5ee45c8bdb3f62c477a"
+    },
+    {
+      "id": "f01-020",
+      "title": "4.12　多渠道积累与交付反馈获客",
+      "file": "knowledge__f01-020.md",
+      "source_char_range": [
+        42218,
+        42993
+      ],
+      "source_segment_sha256": "88a890f04989b487d08c1872100f30b7e7ae8b9429d9476b6e326e5063fd71f4",
+      "packaged_sha256": "613ec809a7ea000965729fbddc38dc99cee1714d5b20687c09528b175cf39f3b"
+    },
+    {
+      "id": "f02-008",
+      "title": "5.1　业务需求与价值目标",
+      "file": "knowledge__f02-008.md",
+      "source_char_range": [
+        42993,
+        43499
+      ],
+      "source_segment_sha256": "df5988ded7497ecb73e30588954f4ecb87fa4b2bea27104ab48f6c68b4980cfa",
+      "packaged_sha256": "358b63f316c2ca30087bf543b5cf37f844e99d309252d0f6ee15b92b2925634f"
+    },
+    {
+      "id": "f02-009",
+      "title": "5.2　相关方需求与利益冲突",
+      "file": "knowledge__f02-009.md",
+      "source_char_range": [
+        43499,
+        44086
+      ],
+      "source_segment_sha256": "e4b6e48097cb4fa03294ea69f542d151f018f869cafb58ae1bc0930b2afcb63c",
+      "packaged_sha256": "7dd24fcd39cfd927332d0483cbf6d51510b6af71c873b679aba1b3de15cdc1ea"
+    },
+    {
+      "id": "f02-010",
+      "title": "5.3　功能需求：系统应有的可观察行为",
+      "file": "knowledge__f02-010.md",
+      "source_char_range": [
+        44086,
+        44612
+      ],
+      "source_segment_sha256": "8c76e5bc1179a74c45b41b8e0547f2ac13cc442ed1b6507efa6de55395bdfcf0",
+      "packaged_sha256": "6ec4bf7cd46f16650713aedc4741cfee9e542ceb55ba61358f414b0b33c619d4"
+    },
+    {
+      "id": "f02-011",
+      "title": "5.4　非功能需求与质量约束",
+      "file": "knowledge__f02-011.md",
+      "source_char_range": [
+        44612,
+        45342
+      ],
+      "source_segment_sha256": "f8909b21c31a192f2deebd55b21350ea91929507313ce7d6aaf35fab86308602",
+      "packaged_sha256": "8aa72434a05bc56ed59136c61b764e73dfa03844712fa60800990def3eee5a80"
+    },
+    {
+      "id": "f02-012",
+      "title": "5.5　过渡需求与业务连续性",
+      "file": "knowledge__f02-012.md",
+      "source_char_range": [
+        45342,
+        45945
+      ],
+      "source_segment_sha256": "9b684a3458cad95032a1079b49b15bc8f053cbbfb29ce88aeff2f9b7cf2be029",
+      "packaged_sha256": "1fc4135a5a24f56903e38430825b8098a98dd3c22a43dc006dc13023e36a1cc1"
+    },
+    {
+      "id": "f02-013",
+      "title": "5.6　相关方决定权限识别法",
+      "file": "knowledge__f02-013.md",
+      "source_char_range": [
+        45945,
+        46545
+      ],
+      "source_segment_sha256": "30a6cc45c96d6bd628d6179ba3f2a9f5ecb72fad82ba039075a407bb1713e430",
+      "packaged_sha256": "9195126648becf5530b61ed36f8bb51a3f94214db36a4aa2f6d121a38f7aba98"
+    },
+    {
+      "id": "f02-014",
+      "title": "5.7　授权承诺的行动化核验法",
+      "file": "knowledge__f02-014.md",
+      "source_char_range": [
+        46545,
+        47240
+      ],
+      "source_segment_sha256": "6ff8ac0afba94b692113ef9443fc78eb8d0502646a9ee7ea69d6e9f73a8a811f",
+      "packaged_sha256": "d96f9cb38b498e259d77a189a3b850c895c0ac1c619748326336f8d39f5b7fba"
+    },
+    {
+      "id": "f02-001",
+      "title": "5.8　业务语言访谈与复述确认法",
+      "file": "knowledge__f02-001.md",
+      "source_char_range": [
+        47240,
+        47833
+      ],
+      "source_segment_sha256": "e45cdcaa2b08af1ff361476a2bc3ce4cb354845446407a92ef18f1f160c9ca04",
+      "packaged_sha256": "128aea0a256b30b7fa67a7ad78559506dd08e1d26f30f111bb26fc5ae237ea83"
+    },
+    {
+      "id": "f02-002",
+      "title": "5.9　业务目标、使用入口与处理能力分离分析法",
+      "file": "knowledge__f02-002.md",
+      "source_char_range": [
+        47833,
+        48497
+      ],
+      "source_segment_sha256": "3170c4b482bdcc37d94306e1dfc8128ad0ce36b7c84a2fcba5fb14b1920ae173",
+      "packaged_sha256": "48d57511df655f78445070cb1a87e0a473d6e896b682c01be8b36e5ed82b2d16"
+    },
+    {
+      "id": "f02-003",
+      "title": "5.10　真实任务链追踪分析法",
+      "file": "knowledge__f02-003.md",
+      "source_char_range": [
+        48497,
+        49203
+      ],
+      "source_segment_sha256": "5373f4561487eb1b834361049dfe4e5abf0f829f456893ec2a31560577d34bcf",
+      "packaged_sha256": "886db7b19e3a0486d1c29fe458a34e1895e7c2f39ada9875945192940e782d0a"
+    },
+    {
+      "id": "f02-004",
+      "title": "5.11　As-is / To-be 状态对比分析法",
+      "file": "knowledge__f02-004.md",
+      "source_char_range": [
+        49203,
+        49932
+      ],
+      "source_segment_sha256": "82b21f186081c267d857c341b303999fb5da2044f1b5504bd3c0b41d31a05f0b",
+      "packaged_sha256": "eb2fcc463496664e997f6f0048143b3a0167abfaaa4b11ac0145ba4235e79e20"
+    },
+    {
+      "id": "f02-005",
+      "title": "5.12　用户故事与业务场景规格法",
+      "file": "knowledge__f02-005.md",
+      "source_char_range": [
+        49932,
+        50646
+      ],
+      "source_segment_sha256": "9e3d37d23e166b4861060702cbaa3bb19e41a5118f945ba26d18d47257f445c2",
+      "packaged_sha256": "dee388f5d6cd72ad7d18f64e7187f65848160babd3878c11d8abd4a57ce5d5fc"
+    },
+    {
+      "id": "f02-006",
+      "title": "5.13　需求调研隐含假设核对法",
+      "file": "knowledge__f02-006.md",
+      "source_char_range": [
+        50646,
+        51264
+      ],
+      "source_segment_sha256": "b10e7ab5b8f46f8e187ae1cfc2c3e9d38940fda162ba99bcbc8fad14a7d3f139",
+      "packaged_sha256": "61096d8161726f2f2a9e7f1f35b62a3c626ff0987ed163a3e75a9b30d9a03bd6"
+    },
+    {
+      "id": "f02-016",
+      "title": "5.14　SOP 与实际流程差异调查法",
+      "file": "knowledge__f02-016.md",
+      "source_char_range": [
+        51264,
+        51987
+      ],
+      "source_segment_sha256": "0869e1446984acde435d4705057e4b6f36fec70a3f85393cd2f49f0c42ea029b",
+      "packaged_sha256": "260703784f5207c27560ec4a24f0d5b79a569252ab875eaf7d7d2a011f0c5a60"
+    },
+    {
+      "id": "f02-017",
+      "title": "5.15　隐性经验的保留、改进与纠正条件",
+      "file": "knowledge__f02-017.md",
+      "source_char_range": [
+        51987,
+        52803
+      ],
+      "source_segment_sha256": "37db4be6c67b3d9763325047a32517eeffff632042b8b34d04775ea2559f5636",
+      "packaged_sha256": "f0c71b0a4d2de951804111c99854a453f2f764fbc4b057637f1e726617b28a5d"
+    },
+    {
+      "id": "f02-015",
+      "title": "5.16　需求转写的证据分层与核对法",
+      "file": "knowledge__f02-015.md",
+      "source_char_range": [
+        52803,
+        53419
+      ],
+      "source_segment_sha256": "5bf859cfef49f55d540612dc68564bb0001499c2eee86a8eeb0c2d0be6bbf581",
+      "packaged_sha256": "a265b3cf12cec476e90afd55115881c16754e9726fffe8ba97ba6dc94a49486c"
+    },
+    {
+      "id": "f02-018",
+      "title": "5.17　文档、接口与推断的结论溯源法",
+      "file": "knowledge__f02-018.md",
+      "source_char_range": [
+        53419,
+        54107
+      ],
+      "source_segment_sha256": "f2cc4c7cd9c10a0ccc7afd99da2506211bef6eae0ae6ae6e6474a0072756cd51",
+      "packaged_sha256": "8807d6c3dc05514dfec263e4c920cdb5797883d81a23086af4786b1b2cda7791"
+    },
+    {
+      "id": "f02-007",
+      "title": "5.18　局部增强与流程重构的判断依据",
+      "file": "knowledge__f02-007.md",
+      "source_char_range": [
+        54107,
+        54783
+      ],
+      "source_segment_sha256": "453a84cb0612ffb16177efd43df09d93c784e4cfe2d7b0d2fa982816d42ade5d",
+      "packaged_sha256": "5764875efa50daa04af9139c279d3d30f82e0e6107475236245f9a5252d7ba2c"
+    },
+    {
+      "id": "f02-019",
+      "title": "5.19　场景优先级六维评估法",
+      "file": "knowledge__f02-019.md",
+      "source_char_range": [
+        54783,
+        55529
+      ],
+      "source_segment_sha256": "e5972f91f3f1d74f07e65ecf7955895387b97c7e4c62b539b85dec049705f61f",
+      "packaged_sha256": "69de70bcfdef3e094801d6e08a834d7ec5b902efed16a687364fd14c4401a9a6"
+    },
+    {
+      "id": "f02-020",
+      "title": "5.20　端到端数据流与部署边界核验法",
+      "file": "knowledge__f02-020.md",
+      "source_char_range": [
+        55529,
+        56281
+      ],
+      "source_segment_sha256": "206886fd8ba5e8cff89e599051a8c337802b7f854348a342e4b2c96d47e04646",
+      "packaged_sha256": "e420dbb8ef718e84e75eeb7aecf99190fde5f15f7d5190d360d9453cc48d0b07"
+    },
+    {
+      "id": "f02-021",
+      "title": "5.21　审核任务的自动化准入条件",
+      "file": "knowledge__f02-021.md",
+      "source_char_range": [
+        56281,
+        57017
+      ],
+      "source_segment_sha256": "ddbe99d2505cd120a71eb358eb344a5e1ccd37df9ae01e7863103ba6186bc98c",
+      "packaged_sha256": "369592289682a7d0a8fce5474c4804557f6e8b882121fef7433a227e73491bb7"
+    },
+    {
+      "id": "f02-022",
+      "title": "5.22　需求—功能双向追溯法",
+      "file": "knowledge__f02-022.md",
+      "source_char_range": [
+        57017,
+        57681
+      ],
+      "source_segment_sha256": "e1896219a446fd0bc86fdbf380cb6825c8c9f18d99b72eb883f1219d62624667",
+      "packaged_sha256": "5f735a7b092da375291697c3f01079cb452231e8e434f2d701905f98026c67ab"
+    },
+    {
+      "id": "f02-023",
+      "title": "5.23　关键取舍摘要与需求确认法",
+      "file": "knowledge__f02-023.md",
+      "source_char_range": [
+        57681,
+        58504
+      ],
+      "source_segment_sha256": "3a8f369c52740828b9ad89cc8d07fa515edb27691e2b81f11b17e12d420e3706",
+      "packaged_sha256": "ae17606d3f732e9eb9922b07f507e317aa5cb9c5131c0595765e63a3403da62d"
+    },
+    {
+      "id": "f03-002",
+      "title": "6.1　最小完整业务任务切分法",
+      "file": "knowledge__f03-002.md",
+      "source_char_range": [
+        58504,
+        59154
+      ],
+      "source_segment_sha256": "246dd6ef1f85b273730ba6900e1c0ed312a2782417d143ce490dccc3331ebb1e",
+      "packaged_sha256": "3dc8aa08e22df1a2e329c745808d317453d19089d2c88731402c73b076e0d73d"
+    },
+    {
+      "id": "f03-006",
+      "title": "6.2　探索性验证的工作边界定义法",
+      "file": "knowledge__f03-006.md",
+      "source_char_range": [
+        59154,
+        59883
+      ],
+      "source_segment_sha256": "8bcbde917fc79f067d273dffd48af482fb2d6543be8589f974ed04bc179727a7",
+      "packaged_sha256": "90fad94bcd5af1e9d3a6ed684eb179094d0d0181ad7f79236417e002f8c2ea7e"
+    },
+    {
+      "id": "f04-008",
+      "title": "6.3　POC 的范围、费用与责任约定",
+      "file": "knowledge__f04-008.md",
+      "source_char_range": [
+        59883,
+        60533
+      ],
+      "source_segment_sha256": "fa130ea1388ceb9aa84c83a3454e36d048dffaa02a91571a92a3997b221865ab",
+      "packaged_sha256": "0f6e030f54f80adce3306c2b4641fe4f973942750f08159d097bff349baca64d"
+    },
+    {
+      "id": "f03-011",
+      "title": "6.4　阶段评价维度与验收口径设计法",
+      "file": "knowledge__f03-011.md",
+      "source_char_range": [
+        60533,
+        61362
+      ],
+      "source_segment_sha256": "64990928180fdeebf568fe227d00a84142270f08b949589ba2e6559e36db0454",
+      "packaged_sha256": "9fea365f61b8a64b318a57265184a7c8c51a02b3cba2e5ac33b24a51c774878e"
+    },
+    {
+      "id": "f03-004",
+      "title": "6.5　Demo 交互对齐与模拟披露法",
+      "file": "knowledge__f03-004.md",
+      "source_char_range": [
+        61362,
+        62068
+      ],
+      "source_segment_sha256": "faaa8cb04047197801fdbde9ee713f1dc5deee4c663077e13db2b6ce132cfd78",
+      "packaged_sha256": "a931ba9a7207f5928997858bb80fd9ed5c27d379e0974239d0dbe860c7d1a1ca"
+    },
+    {
+      "id": "f03-005",
+      "title": "6.6　POC 最小验证链路设计法",
+      "file": "knowledge__f03-005.md",
+      "source_char_range": [
+        62068,
+        62747
+      ],
+      "source_segment_sha256": "1f107186f2f7dbe1bfe4e38916787ff36f1f5d231e548fe9570b43eecbabdbb9",
+      "packaged_sha256": "7bf41d4ca02b906aab71372547faa03d0a78ee46314dd3cb44e1b4addd90c9b4"
+    },
+    {
+      "id": "f03-007",
+      "title": "6.7　关键接口最小连通验证法",
+      "file": "knowledge__f03-007.md",
+      "source_char_range": [
+        62747,
+        63496
+      ],
+      "source_segment_sha256": "f91ea03d2f7c091e0ccaac7d65a5222faa05cc7b96989755d0517a24fb0025aa",
+      "packaged_sha256": "76f04b6867c12b4ae3ee4556b6e4a564cb64c73f5bf760b9c0f2b5551c229420"
+    },
+    {
+      "id": "f03-009",
+      "title": "6.8　试点基线与对照可比性检查法",
+      "file": "knowledge__f03-009.md",
+      "source_char_range": [
+        63496,
+        64188
+      ],
+      "source_segment_sha256": "7e2803ca05af5c9e6a5c56de4b1dffbba2a59f484c67228db751f8c8ed1d8094",
+      "packaged_sha256": "9491d3951da0f5105f7e0512ff9cac79ba978a62e0d93eb5b18cbb8a619601b9"
+    },
+    {
+      "id": "f06-012",
+      "title": "6.9　首次结果、重试与人工补位",
+      "file": "knowledge__f06-012.md",
+      "source_char_range": [
+        64188,
+        64927
+      ],
+      "source_segment_sha256": "ac160ae7b85c0ea377c0ced5cb9a7f11ad37892c2debb32249ecc3f886b20fb4",
+      "packaged_sha256": "ad30671932fe5034f5bdafd4d94790537d2973754366526b924319834c0fdee0"
+    },
+    {
+      "id": "f03-010",
+      "title": "6.10　输入—输出—反馈成对记录法",
+      "file": "knowledge__f03-010.md",
+      "source_char_range": [
+        64927,
+        65563
+      ],
+      "source_segment_sha256": "c9950cd1224a36b7080a17551a94fb5aba336f8ba61543dadbb4713a3c781133",
+      "packaged_sha256": "fe846ea53cc9fd75106e8f2eea10ccf391ca3670c82f3e001b049af731ad4b76"
+    },
+    {
+      "id": "f03-012",
+      "title": "6.11　平行评测与分步授权法",
+      "file": "knowledge__f03-012.md",
+      "source_char_range": [
+        65563,
+        66267
+      ],
+      "source_segment_sha256": "a504a2316dda6d7e986f0537e3f89ea9743567d185eb31953373a358239e3bf3",
+      "packaged_sha256": "4ab04a25d8687ef0877d6869019b269fb3e04f56ce10b95ea217b393a312fed4"
+    },
+    {
+      "id": "f03-013",
+      "title": "6.12　扩展投入的质量—成本—价值联合评估法",
+      "file": "knowledge__f03-013.md",
+      "source_char_range": [
+        66267,
+        67012
+      ],
+      "source_segment_sha256": "38f795faa7ec15554b51a4e47c01080cd2b9bdd3594787a53417fe31e2ba2aee",
+      "packaged_sha256": "445268c45c6a20c984a56687ae392dfbca10d5fd43c941f58728393050af4418"
+    },
+    {
+      "id": "f03-016",
+      "title": "6.13　POC 结论覆盖与外推边界核验法",
+      "file": "knowledge__f03-016.md",
+      "source_char_range": [
+        67012,
+        67815
+      ],
+      "source_segment_sha256": "6f9f67e903bc812e3d4cad2e5e37535ca86866f5811c940c46a0925d1e3a4d75",
+      "packaged_sha256": "e8fef2582db4ac56ee2e4429f2978ec78a3660fd81badc21e61493d8028f43ea"
+    },
+    {
+      "id": "f03-015",
+      "title": "6.14　POC 继续、调整与停止的判断依据",
+      "file": "knowledge__f03-015.md",
+      "source_char_range": [
+        67815,
+        68618
+      ],
+      "source_segment_sha256": "36ea553a6f18fd77b97020114eacde6f2622e8292dcbb03059160d42f449095c",
+      "packaged_sha256": "9c4898688abb5a90511721b2615963563bc217f396bcb6a57d0c46d0d008b3d1"
+    },
+    {
+      "id": "f03-014",
+      "title": "6.15　阶段推进的证据与批准条件",
+      "file": "knowledge__f03-014.md",
+      "source_char_range": [
+        68618,
+        69370
+      ],
+      "source_segment_sha256": "4d47c25a89e2a48a149dc5738460540e78a08964c95e23cdb2c5b554ca4c7c17",
+      "packaged_sha256": "99782eaa7b0adf4afb37922768ea11d88cb20a33b37c81b9baad00a39fe41e97"
+    },
+    {
+      "id": "f03-017",
+      "title": "6.16　试点到持续运行的条件差异分析法",
+      "file": "knowledge__f03-017.md",
+      "source_char_range": [
+        69370,
+        70279
+      ],
+      "source_segment_sha256": "a01c48d9ddf7329ffd2c32be021cbb3ce0bfd51b2a1727af890338a9f8f4e90f",
+      "packaged_sha256": "ca4ee005ef1865293d34412a6188fb372833ff5da91fce360afc22d77a4dc29a"
+    },
+    {
+      "id": "f04-006",
+      "title": "7.1　计价方式与服务责任",
+      "file": "knowledge__f04-006.md",
+      "source_char_range": [
+        70279,
+        70917
+      ],
+      "source_segment_sha256": "110c322bfbf2ea2b7d11b14406bbbdae056102ba2f153dda6c4921cbdcebc232",
+      "packaged_sha256": "6d85a329b2cc672fbec26563936300c9118324685f7a07aae1f7c2fe0324cf8c"
+    },
+    {
+      "id": "f04-007",
+      "title": "7.2　固定总价与明确的交付边界",
+      "file": "knowledge__f04-007.md",
+      "source_char_range": [
+        70917,
+        71537
+      ],
+      "source_segment_sha256": "7d89182dfd48172bfe3e5da5323e25f5df822c75e76f8eb370e32a1138cc8dad",
+      "packaged_sha256": "226e7b00a8af26ce876b01b3b8daffa89042e4862fe5f0012e9c4fef4dede5bf"
+    },
+    {
+      "id": "f05-055",
+      "title": "7.3　人天工作量与日历工期",
+      "file": "knowledge__f05-055.md",
+      "source_char_range": [
+        71537,
+        72123
+      ],
+      "source_segment_sha256": "6a060c023cc5cc9ff9f426cf177b0274b6ebfd076e1cbb3788b4053008d7e5d4",
+      "packaged_sha256": "a8a62445052b96d401155e805edb1b76ad99fc90dce23f7d13a81f0f4356ebd0"
+    },
+    {
+      "id": "f04-001",
+      "title": "7.4　完整交付工作量估算法",
+      "file": "knowledge__f04-001.md",
+      "source_char_range": [
+        72123,
+        72915
+      ],
+      "source_segment_sha256": "800b1433ee294d2a85cc5a5a168b69f289def32d8d5f35974be1b68e07131c0c",
+      "packaged_sha256": "4aafe685bd867284c6f1d039e961360944dcd107f0606c6294745d3aabea268b"
+    },
+    {
+      "id": "f04-002",
+      "title": "7.5　项目风险余量配置与消耗跟踪法",
+      "file": "knowledge__f04-002.md",
+      "source_char_range": [
+        72915,
+        73617
+      ],
+      "source_segment_sha256": "5a6494e40aa4645c793e6144349767860d53677cb6dd8c059a4f412be91ce850",
+      "packaged_sha256": "f375149061eb3441ed32d977a9d7ba9053913a7ff3219df917c38357dbb58469"
+    },
+    {
+      "id": "f04-003",
+      "title": "7.6　用量预算与周期总成本估算法",
+      "file": "knowledge__f04-003.md",
+      "source_char_range": [
+        73617,
+        74339
+      ],
+      "source_segment_sha256": "2ec88f5b0e5c0984896ed7c46691c61f7ac4863d37342c7c8bb6aa59f6bc0e99",
+      "packaged_sha256": "b8bd14a57cf55ee65b4f2520d302a99cfa16937dcbfe973060b99de7a4892d2f"
+    },
+    {
+      "id": "f04-004",
+      "title": "7.7　价值报价的证据与成本约束",
+      "file": "knowledge__f04-004.md",
+      "source_char_range": [
+        74339,
+        75237
+      ],
+      "source_segment_sha256": "e6f3a7a6dd8372282c9f5382a55b9b7269f36eb1de76c0895d26a22a262abae4",
+      "packaged_sha256": "c26c91f89e988f0b58647e7bd17abdff72d4a0cad0594ed86596e1f27d1163c9"
+    },
+    {
+      "id": "f04-005",
+      "title": "7.8　同范围市场参照与报价校准法",
+      "file": "knowledge__f04-005.md",
+      "source_char_range": [
+        75237,
+        75922
+      ],
+      "source_segment_sha256": "633aa0d2895263b8f5995039a6fd7549491a3ccdc5d6bda3a50f119437c24751",
+      "packaged_sha256": "0dee1b83bd97f4a728d13fe37d04e6c0505e4ebec309fe4b99728f9b5becdcb0"
+    },
+    {
+      "id": "f04-009",
+      "title": "7.9　付款节点与履行证据",
+      "file": "knowledge__f04-009.md",
+      "source_char_range": [
+        75922,
+        76515
+      ],
+      "source_segment_sha256": "57020f1b98c080934f1a83716393cfa883d24a6339dcb9917c55273709a5891f",
+      "packaged_sha256": "e50bcef46449bc8571bc26f716a6d8969ecf0e98d5c6b1a4729325ef837dd8ae"
+    },
+    {
+      "id": "f04-011",
+      "title": "7.10　成果交付、使用许可与权利转让",
+      "file": "knowledge__f04-011.md",
+      "source_char_range": [
+        76515,
+        77207
+      ],
+      "source_segment_sha256": "c14b8fc3c7f52c62238dfc6ed69ae29947bc38d28f08823d701d89dd860ff9dd",
+      "packaged_sha256": "d5a340828e979dabb6d4998ddda544d4d805c606468ba718764f1da05ad18b54"
+    },
+    {
+      "id": "f04-010",
+      "title": "7.11　范围—报价—计划—合同版本一致性核验法",
+      "file": "knowledge__f04-010.md",
+      "source_char_range": [
+        77207,
+        77843
+      ],
+      "source_segment_sha256": "2f192a31131245a01253259cc690880e393a9b0d1f4d46854cdc45891b28c059",
+      "packaged_sha256": "6b3e45c619ece6db6ae4dbabc58ad938a3ccf140ef6a27fb0bb23e188b241dc1"
+    },
+    {
+      "id": "f04-013",
+      "title": "7.12　客户配合与项目结束权限处理法",
+      "file": "knowledge__f04-013.md",
+      "source_char_range": [
+        77843,
+        78620
+      ],
+      "source_segment_sha256": "575447f40ae9a280c0c293513c31d3fab52f62cc069645b5d2603412c7a78f24",
+      "packaged_sha256": "eee3b0719e88eca5bfaea90a17c045e06a1ea1b3bbdd85ae348431b48cd6d476"
+    },
+    {
+      "id": "f04-012",
+      "title": "7.13　合同履行时间线与相互依赖检查法",
+      "file": "knowledge__f04-012.md",
+      "source_char_range": [
+        78620,
+        79287
+      ],
+      "source_segment_sha256": "c80d8cacd3217471880a55aa3b58a5d5782e871a5ce8e34b24d5a76a52770ecf",
+      "packaged_sha256": "11704d659ebbd52a1806581fc1b58f80d98741c4eef5d6687caf7955c99ca532"
+    },
+    {
+      "id": "f04-014",
+      "title": "7.14　合同履行矛盾与法律审查交接法",
+      "file": "knowledge__f04-014.md",
+      "source_char_range": [
+        79287,
+        80210
+      ],
+      "source_segment_sha256": "d2c9a3d64565e813b9876f92fc40cdb11b22e4cfbf72e248664cf1c2baab6783",
+      "packaged_sha256": "16d081c76dd300cc841a90d0a931b4a74ae5d3ff935077d420f3668f28538a39"
+    },
+    {
+      "id": "f05-052",
+      "title": "8.1　可验成果倒推工作分解法",
+      "file": "knowledge__f05-052.md",
+      "source_char_range": [
+        80210,
+        80913
+      ],
+      "source_segment_sha256": "e24ac01e4c76bb99451a31ee99843e74a40164ef1cb4764ee1f19d825455a539",
+      "packaged_sha256": "14c5750190095d5caf3dffcf4116bd22c870082daf1c3fc494ef8996bbe9941a"
+    },
+    {
+      "id": "f05-058",
+      "title": "8.2　本轮成果与事项状态管理法",
+      "file": "knowledge__f05-058.md",
+      "source_char_range": [
+        80913,
+        81905
+      ],
+      "source_segment_sha256": "accd6dea768d5c6eef2f8e1956b00fee7156e2f0c5e99bca982e2eac478c8260",
+      "packaged_sha256": "9a031ced2a47453353215762d30e5d214d9659758fe2446e48085d6b4c083c16"
+    },
+    {
+      "id": "f05-056",
+      "title": "8.3　按实际进展调整里程碑法",
+      "file": "knowledge__f05-056.md",
+      "source_char_range": [
+        81905,
+        82528
+      ],
+      "source_segment_sha256": "a9494575532f0287493a2d93874b75f4ba22e4ab10e138c76930146d9d95b4d9",
+      "packaged_sha256": "fdd045d61f271a44870464cce3fad91d6177b67dda87dac00e055b49fa1b38dd"
+    },
+    {
+      "id": "f05-057",
+      "title": "8.4　剩余投入缺口与交期预警",
+      "file": "knowledge__f05-057.md",
+      "source_char_range": [
+        82528,
+        83251
+      ],
+      "source_segment_sha256": "c859b6c2ab84dc6d7aeffea64039220ebc28e7b5532457d769c6e94434bd01d6",
+      "packaged_sha256": "6a6d4ed5036b3a289d76c93bf6d6ab9794d751b73fa9e4275ebcf801201c6856"
+    },
+    {
+      "id": "f05-059",
+      "title": "8.5　风险、关键前提与独立准备的处理顺序",
+      "file": "knowledge__f05-059.md",
+      "source_char_range": [
+        83251,
+        83904
+      ],
+      "source_segment_sha256": "5a1787780f9adbbf27ad1a42c506326910ccf22ee12926defd0f32e6951e6228",
+      "packaged_sha256": "8f4d10cfeda3c83aad34ae69f89bb80d3a39b41ba5db7a486a1e6a492dd6062b"
+    },
+    {
+      "id": "f05-060",
+      "title": "8.6　无依赖事项的窗口与排队排序",
+      "file": "knowledge__f05-060.md",
+      "source_char_range": [
+        83904,
+        84580
+      ],
+      "source_segment_sha256": "dbdfc1fb96a0e11ff5f03e642bad08e90d0af8c3aa206a988d8a7cfa33aba204",
+      "packaged_sha256": "69da4dba2f8c2a1d3125f1c7f70bf5daed11106dd01bbb757832ade63bc042e6"
+    },
+    {
+      "id": "f07-022",
+      "title": "8.7　AI建议、执行授权与交付事实",
+      "file": "knowledge__f07-022.md",
+      "source_char_range": [
+        84580,
+        85268
+      ],
+      "source_segment_sha256": "237e45e7acf5dc2f4b725656682e0aca6d376831a05213996893fdc8eb50d86e",
+      "packaged_sha256": "83955c3efdb3f611b5edd1d6c4ab102e7b644685cf070204fe9bea08eb4fff63"
+    },
+    {
+      "id": "f07-013",
+      "title": "8.8　交付依赖与协作准备法",
+      "file": "knowledge__f07-013.md",
+      "source_char_range": [
+        85268,
+        85903
+      ],
+      "source_segment_sha256": "89787c6f07897db1cad08ee9f6aa06e4538b8dbfd225831d8e2c000787f80582",
+      "packaged_sha256": "5266e3ad19e7ada4b01fc1e9cd9d47b2b02ad3aba4606b92f3de37c0583a1525"
+    },
+    {
+      "id": "f07-014",
+      "title": "8.9　协作承诺与材料可用性核验法",
+      "file": "knowledge__f07-014.md",
+      "source_char_range": [
+        85903,
+        86509
+      ],
+      "source_segment_sha256": "f974172f6d0d82887596f0c7324e126e898796d5e838ac2d366f76236a9039a2",
+      "packaged_sha256": "f1ea68c0ad158ff1da9be7f3b859e61acc7dfac6c1106939e3572f660b5078d3"
+    },
+    {
+      "id": "f07-010",
+      "title": "8.10　现场与后方协作反馈法",
+      "file": "knowledge__f07-010.md",
+      "source_char_range": [
+        86509,
+        87108
+      ],
+      "source_segment_sha256": "3994b49ec2a141c77e6550af605c8c618014ceae725f7a48000f65f154a730f4",
+      "packaged_sha256": "f4be94283e14d30706ee00727112dfbaea5c8452794aad38f9d56791074b3a96"
+    },
+    {
+      "id": "f07-011",
+      "title": "8.11　相关方冲突的选项化决策法",
+      "file": "knowledge__f07-011.md",
+      "source_char_range": [
+        87108,
+        87751
+      ],
+      "source_segment_sha256": "46778786c49517f32a7cc4f288a69e4bf575904b41b58ddef52b38bc0461afd0",
+      "packaged_sha256": "d1e0abbf3ef0fedcb7308904b73d446171205a629e3606ef0fa2ef997a814226"
+    },
+    {
+      "id": "f07-012",
+      "title": "8.12　间接交付中的终端事实获取法",
+      "file": "knowledge__f07-012.md",
+      "source_char_range": [
+        87751,
+        88407
+      ],
+      "source_segment_sha256": "cc31b5d16654abc88dc7612e30e59efa781c728280e351946a0df87855c0f933",
+      "packaged_sha256": "b664030b090448d9707e6fdea65d0768795b4c0237101ece3b6e962f338e57e5"
+    },
+    {
+      "id": "f07-015",
+      "title": "8.13　阻塞上报：缺口、影响、选项与决定",
+      "file": "knowledge__f07-015.md",
+      "source_char_range": [
+        88407,
+        89067
+      ],
+      "source_segment_sha256": "03a33cc4bc3f6d29d7390d15aada1f47d40fee75255366eab0f38242d7c63085",
+      "packaged_sha256": "c8f81f466995dc686c50e4e32b03ee0294714dde783698e0d20e7e69cb73aae8"
+    },
+    {
+      "id": "f07-016",
+      "title": "8.14　协作决定回写与暂停恢复法",
+      "file": "knowledge__f07-016.md",
+      "source_char_range": [
+        89067,
+        89727
+      ],
+      "source_segment_sha256": "aec9dddaec44f402007206f4227a0aed67c01ec9d717b590c78970fbf76cbf7d",
+      "packaged_sha256": "398487f6e4b4bc6280d8f6524af0fe3a453b4d46ab905dbe722ba8ce57f3edd8"
+    },
+    {
+      "id": "f07-001",
+      "title": "8.15　使用反馈复现与条件差异分析法",
+      "file": "knowledge__f07-001.md",
+      "source_char_range": [
+        89727,
+        90311
+      ],
+      "source_segment_sha256": "999dcb4ad35f73a5153cf0c2caebb735fbb06fe5dfac199f2606b6d2f02a8fd2",
+      "packaged_sha256": "c6fed085ea681a03f09d4a393b537b9cdc72f4033e98d948935a495ed3fec739"
+    },
+    {
+      "id": "f07-002",
+      "title": "8.16　缺陷、变更与模糊约定的判定",
+      "file": "knowledge__f07-002.md",
+      "source_char_range": [
+        90311,
+        91028
+      ],
+      "source_segment_sha256": "0129c1fef98b60e52b9bcf9d255396669b82ab13a246fa03d32a96a79317dee5",
+      "packaged_sha256": "1819898c02eaa56a14c73873cce68bdadfa65afa8b4ad2ffe1de897e66774bbf"
+    },
+    {
+      "id": "f07-003",
+      "title": "8.17　供应商缺陷与公司内部变更的区分",
+      "file": "knowledge__f07-003.md",
+      "source_char_range": [
+        91028,
+        91630
+      ],
+      "source_segment_sha256": "4d993f61f281284b2643b1e74e4f9a23f9e9ac6c55efe037f4b5eaba5c9e89bc",
+      "packaged_sha256": "db92b8356e607bfc34c7796854e1a3095e83be88cb0beb587136221b9ce008f7"
+    },
+    {
+      "id": "f07-004",
+      "title": "8.18　交付依赖链变更影响分析法",
+      "file": "knowledge__f07-004.md",
+      "source_char_range": [
+        91630,
+        92323
+      ],
+      "source_segment_sha256": "57cba883446954acbf8fa556d44e73ed1659f0a4d670933229588cbff4a10149",
+      "packaged_sha256": "bdc9101dd447791b880a7f36dafd5c31f2866fb1e517fc302e2270709f02ddb0"
+    },
+    {
+      "id": "f07-005",
+      "title": "8.19　沿用、适配与新增的范围判定",
+      "file": "knowledge__f07-005.md",
+      "source_char_range": [
+        92323,
+        93119
+      ],
+      "source_segment_sha256": "8fe7733dcaa417116ed66b19b008749211cd45b577db89d6fc0cf5a0efb2ddd8",
+      "packaged_sha256": "2ece9231cdff70ddb39356aa96abe54a573059fbd6b3c48b3b81707e40eb26f6"
+    },
+    {
+      "id": "f07-006",
+      "title": "8.20　变更影响分析与授权决策法",
+      "file": "knowledge__f07-006.md",
+      "source_char_range": [
+        93119,
+        93746
+      ],
+      "source_segment_sha256": "a0eb41445316d6ba053eeccd5685e3891b1f7b6afb49e5889c111490a0fddbd3",
+      "packaged_sha256": "e13568ff21a65b0206e79d394099872e96c859a8d992776d2119f9aaac29bb55"
+    },
+    {
+      "id": "f07-007",
+      "title": "8.21　变更同步与业务回归法",
+      "file": "knowledge__f07-007.md",
+      "source_char_range": [
+        93746,
+        94411
+      ],
+      "source_segment_sha256": "bbcf68016905ecdcd0220c8053fbb7cf7f291e952f6d91c328ba77b48c2160ba",
+      "packaged_sha256": "5edcc645552fa08fd3f636b7351a8ad54432695503bfe8b8fdda0d0f69c23eaa"
+    },
+    {
+      "id": "f07-008",
+      "title": "8.22　固定资源下的范围取舍与推进条件",
+      "file": "knowledge__f07-008.md",
+      "source_char_range": [
+        94411,
+        95068
+      ],
+      "source_segment_sha256": "ae187d209b645e3f4ee127e3d5b87759e5e813b7c155e0b1a4ae14ccff043626",
+      "packaged_sha256": "a325551f361ed9e16e6ceaa3462ca859566b641386fbf17ddea3f6a48c0a9346"
+    },
+    {
+      "id": "f07-009",
+      "title": "8.23　按超支原因确定处理安排",
+      "file": "knowledge__f07-009.md",
+      "source_char_range": [
+        95068,
+        95869
+      ],
+      "source_segment_sha256": "6afbee77a8b5b1f02bf1263ea266f67ca8b9e4e44e3a26295e5e3574b49d04ed",
+      "packaged_sha256": "9a9baf4bedab05d191bef5d3cbbbb8af864643fca87d0dc99976ebf9e9bf4d65"
+    },
+    {
+      "id": "f07-023",
+      "title": "8.24　判断修正的透明沟通法",
+      "file": "knowledge__f07-023.md",
+      "source_char_range": [
+        95869,
+        96543
+      ],
+      "source_segment_sha256": "3c17415ca453a97d90bc84fa057a5755e747e957f8c662dfb862a65ee35161fd",
+      "packaged_sha256": "f19bd6d73f8082709386a94ed7be11e22f039e66163aef6468fba00e97d85d1b"
+    },
+    {
+      "id": "f07-024",
+      "title": "8.25　继续、回退、暂停与退出的条件",
+      "file": "knowledge__f07-024.md",
+      "source_char_range": [
+        96543,
+        97456
+      ],
+      "source_segment_sha256": "d85aba705c1339cf249719e3725a8fd2992eb820b60394f635749472826b6727",
+      "packaged_sha256": "95e3566cca874c4d745578677b1cf778dacb700934144bb23d0b8dc3edeac136"
+    },
+    {
+      "id": "f05-023",
+      "title": "9.1　用户入口、治理后台与执行环境",
+      "file": "knowledge__f05-023.md",
+      "source_char_range": [
+        97456,
+        98078
+      ],
+      "source_segment_sha256": "ae06ac581bb0d9b4e5a3448b83c12b213b856379ee78be39f840a5ef0d2f162b",
+      "packaged_sha256": "bbfe3c776367210ba0e4cef376096d040e66e0ed379d0337180f501b8f484fa0"
+    },
+    {
+      "id": "f05-027",
+      "title": "9.2　人机协同与完整任务",
+      "file": "knowledge__f05-027.md",
+      "source_char_range": [
+        98078,
+        98608
+      ],
+      "source_segment_sha256": "02ac13b6397ecd031285326b66f8fc7032cacb8dc37c2c07cdfa267547ae3a34",
+      "packaged_sha256": "b90e391a6a8e788bbe94e5b58346a99f005e5a334075516cbccc2abcf36de5ac"
+    },
+    {
+      "id": "f05-020",
+      "title": "9.3　最小实现形态的选择条件",
+      "file": "knowledge__f05-020.md",
+      "source_char_range": [
+        98608,
+        99441
+      ],
+      "source_segment_sha256": "f8d6610c7c79e87691d3a4a8db9e2c988f795abc94dfafe70b2d4c777c0d64cd",
+      "packaged_sha256": "de7ec454093ae7abcb7b21a8ac1b71036fc45513c4c2dbec99cf8e390d5c3b3a"
+    },
+    {
+      "id": "f05-024",
+      "title": "9.4　平台能力、工程工具与交付服务",
+      "file": "knowledge__f05-024.md",
+      "source_char_range": [
+        99441,
+        100035
+      ],
+      "source_segment_sha256": "c596a86f7f1f71b4ecbf0356cc80cd135a697ea5a497f1fdf6df3c2ed15f2006",
+      "packaged_sha256": "bf369a23d9556ab707f7497fd3e014367e82cd9bef07c90b9bedfef0801786bb"
+    },
+    {
+      "id": "f05-026",
+      "title": "9.5　部署形态的约束与选择条件",
+      "file": "knowledge__f05-026.md",
+      "source_char_range": [
+        100035,
+        100739
+      ],
+      "source_segment_sha256": "4c39d3651c7c47b05643a21a9f10753b59ca82b86b066aef8e28b4ab60567931",
+      "packaged_sha256": "3627ff53773b861b35856b5da292438d55ea107e8e8414e3a36fd3855b8997d9"
+    },
+    {
+      "id": "f05-022",
+      "title": "9.6　岗位型 Agent 任务定义法",
+      "file": "knowledge__f05-022.md",
+      "source_char_range": [
+        100739,
+        101401
+      ],
+      "source_segment_sha256": "ba6e68c07828a3222d5036e85f189b27cce27eb1cecd45f33d5d600a79a44790",
+      "packaged_sha256": "2d63298b44f4b8e04b80ca21b1fde4527eff6e5caa7dab5b4b7343fe59d01f59"
+    },
+    {
+      "id": "f05-021",
+      "title": "9.7　任务能力组装法",
+      "file": "knowledge__f05-021.md",
+      "source_char_range": [
+        101401,
+        102290
+      ],
+      "source_segment_sha256": "568809a3d789ab59ae6a7bc21b3197b9ce4ceea8d19655a9a56ee2f2c088afb6",
+      "packaged_sha256": "baefd930076d4b9c89e7ecb6c27bd922fac9159b77e570b537edd324dcbd4e22"
+    },
+    {
+      "id": "f05-025",
+      "title": "9.8　组件替换影响对照法",
+      "file": "knowledge__f05-025.md",
+      "source_char_range": [
+        102290,
+        102959
+      ],
+      "source_segment_sha256": "f9301e6f01ab008002e24c3af6ac880950e64a735a5bd6c9fcef52ee75a6c1ca",
+      "packaged_sha256": "7db708a79b8f915e9d78348d341f11cd9f3525740246f38be4db9aabdd82625d"
+    },
+    {
+      "id": "f05-028",
+      "title": "9.9　一项业务任务中的组件交接",
+      "file": "knowledge__f05-028.md",
+      "source_char_range": [
+        102959,
+        103755
+      ],
+      "source_segment_sha256": "4979eaa7f345de3e58ea95298fd1d4f7d403c0bc8eb909176ead72a9f05036f3",
+      "packaged_sha256": "b486aa5be7e5c51f34526493e9301ecc71aa16fdbb3122a1b38f33a204cdd731"
+    },
+    {
+      "id": "f05-053",
+      "title": "9.10　参照方案转产品规格法",
+      "file": "knowledge__f05-053.md",
+      "source_char_range": [
+        103755,
+        104417
+      ],
+      "source_segment_sha256": "76172b445a3f5dcbe692b297092ca11afb93e7e63adf819379e55b67890a24f9",
+      "packaged_sha256": "571d261831670cecde7bde7047e70f000c1d7e2cad23fc60f136d0909482ac1d"
+    },
+    {
+      "id": "f06-041",
+      "title": "9.11　界面组件、设计变量与交互状态",
+      "file": "knowledge__f06-041.md",
+      "source_char_range": [
+        104417,
+        104997
+      ],
+      "source_segment_sha256": "5d9f5208fe4897c255a3c3fc0b2f2f47eceae6c40305c51f030ac1f6b2521935",
+      "packaged_sha256": "0e3bc2e54156c5fb59b6d7c6aba9eb175240df9d77d816bbf3957a5ea83c3ec7"
+    },
+    {
+      "id": "f06-042",
+      "title": "9.12　视觉资产授权与品牌规范核验法",
+      "file": "knowledge__f06-042.md",
+      "source_char_range": [
+        104997,
+        105702
+      ],
+      "source_segment_sha256": "0804d38cc0094771f75120cc70fd28a42c6fac823ff5c127ec71aab37813c81f",
+      "packaged_sha256": "9b68f43c2ec4e448820a065ad7c76e63514c0c2e4abdd320d574cdaf5f6b2170"
+    },
+    {
+      "id": "f05-029",
+      "title": "9.13　Prompt 任务规格编写法",
+      "file": "knowledge__f05-029.md",
+      "source_char_range": [
+        105702,
+        106466
+      ],
+      "source_segment_sha256": "0fe50bfe602c87816eda28795ca4159b264008c7a19b5a69e4388e73f39c51f3",
+      "packaged_sha256": "7399156c2e458863a285598b8968d4509c25930a79f27803e1a0cdf5fe9d9bc8"
+    },
+    {
+      "id": "f05-030",
+      "title": "9.14　上下文证据选择与容量核验法",
+      "file": "knowledge__f05-030.md",
+      "source_char_range": [
+        106466,
+        107197
+      ],
+      "source_segment_sha256": "7f344e106fd7e31f19281c860400a2508119f93164c2f5319a91aac2e1b5ba53",
+      "packaged_sha256": "ce2f2d9d276c908e9e61e82261e32d47b22ef29afb65e1a38fe5250422a80443"
+    },
+    {
+      "id": "f05-032",
+      "title": "9.15　输入输出契约与失败分支设计法",
+      "file": "knowledge__f05-032.md",
+      "source_char_range": [
+        107197,
+        108044
+      ],
+      "source_segment_sha256": "a35a5c135efa92dd1a6d879921650a2f3d75a81b805c89a8215e63f4e3f7a65d",
+      "packaged_sha256": "b61ff6dc36ac4315d94cff8de54a37c193ea3206fc43cbf38ac9b99f4d26feec"
+    },
+    {
+      "id": "f05-033",
+      "title": "9.16　Agent 循环、状态与退出条件",
+      "file": "knowledge__f05-033.md",
+      "source_char_range": [
+        108044,
+        108730
+      ],
+      "source_segment_sha256": "a50368cd5eb54b89725691f3151e26a34c234fc718f9cabd75f4b09faded98b4",
+      "packaged_sha256": "550d483c1ea56d6013a39ca4170e63fffc55aa81cbe114e95ccab929755ca09a"
+    },
+    {
+      "id": "f05-035",
+      "title": "9.17　任务受理与数据体检法",
+      "file": "knowledge__f05-035.md",
+      "source_char_range": [
+        108730,
+        109403
+      ],
+      "source_segment_sha256": "be57d14a1b349d5d16ba0f228a895c8e1f73636a99f0b09565d4810e884f60f8",
+      "packaged_sha256": "3e4ce672b02bfdbbaae5ad6300a47de1e0c931c0cb5b9561cc65119bb6f1a5d8"
+    },
+    {
+      "id": "f05-036",
+      "title": "9.18　RAG 的入库、检索与证据使用链路",
+      "file": "knowledge__f05-036.md",
+      "source_char_range": [
+        109403,
+        110121
+      ],
+      "source_segment_sha256": "96e6b7b014fd62edb73ecee5adc78e027db448b5a0c4c78b22b353e7aa7582b4",
+      "packaged_sha256": "3dae5c63f10fc6488295fc05f1a6aad4d35300d3e90423c9dd27297ecc7bc50e"
+    },
+    {
+      "id": "f05-037",
+      "title": "9.19　知识切片语义检查法",
+      "file": "knowledge__f05-037.md",
+      "source_char_range": [
+        110121,
+        110822
+      ],
+      "source_segment_sha256": "02e9b3ec63f1dbd0a15f5891aca275354465aa9a8e551749820b5d4d8559e171",
+      "packaged_sha256": "1b53b869cc0748e8871eab91d1f35a69ea7bf08769ea9dd8f56d01ac9f046798"
+    },
+    {
+      "id": "f05-038",
+      "title": "9.20　多附件抽取与业务证据",
+      "file": "knowledge__f05-038.md",
+      "source_char_range": [
+        110822,
+        111500
+      ],
+      "source_segment_sha256": "8d40e4d79814985b94e8ab441a752cfbf88d1a6042965aef4ea5252c9b9513e4",
+      "packaged_sha256": "4d8bf2e46486ea4cfce8537f7cedbe183007560da06e6f5af67e6c89e4004829"
+    },
+    {
+      "id": "f05-039",
+      "title": "9.21　业务样本冻结与轨迹关联法",
+      "file": "knowledge__f05-039.md",
+      "source_char_range": [
+        111500,
+        112274
+      ],
+      "source_segment_sha256": "159c9526402982c4e75fc8744d2db8537ce23a5be7b5f7f5e73f3b0f7b9e3c9e",
+      "packaged_sha256": "a927b0ee53d541c03019574217ac948c5b721e7eecf0d9c6a66ef04c959f7b2e"
+    },
+    {
+      "id": "f05-040",
+      "title": "9.22　规则候选确认与版本发布法",
+      "file": "knowledge__f05-040.md",
+      "source_char_range": [
+        112274,
+        113016
+      ],
+      "source_segment_sha256": "55bba784d6ce663b51c380eed63fecaaa77ee29f9ddf221503268ee25ecca28b",
+      "packaged_sha256": "ee29581850dba1a9e3c4e322200e0a7ed2cc30c155197e0e99c555d773794f90"
+    },
+    {
+      "id": "f05-042",
+      "title": "9.23　全部数据操作入口的权限约束",
+      "file": "knowledge__f05-042.md",
+      "source_char_range": [
+        113016,
+        113661
+      ],
+      "source_segment_sha256": "2e2736478e3e977d6b21ab6397c413f254b169eb5a44319460c80a88157bb863",
+      "packaged_sha256": "08f0c1ab3d3b1b1c61d61b25fe407454d705e8dec9acdd3c0e62c811b9a08d46"
+    },
+    {
+      "id": "f05-045",
+      "title": "9.24　最小权限与动作风险分级",
+      "file": "knowledge__f05-045.md",
+      "source_char_range": [
+        113661,
+        114403
+      ],
+      "source_segment_sha256": "78feffb323af430cd197886715560c74b139be8cd9387d9f255f79e4ee0b292e",
+      "packaged_sha256": "6e97be24ec58a9240877d4ffe3e94c4195fb8e58448a46a8a07795577ea1f3fb"
+    },
+    {
+      "id": "f05-018",
+      "title": "9.25　关键业务规则的受控执行",
+      "file": "knowledge__f05-018.md",
+      "source_char_range": [
+        114403,
+        115061
+      ],
+      "source_segment_sha256": "279a62d8d57b37c1492c8d3eb3ebba6db8c309cc05acc7485e8c729074f365d9",
+      "packaged_sha256": "780c0f2630c36237a4b59a0fb2d714e92f814c6b34cec28c8a1be09515c81187"
+    },
+    {
+      "id": "f05-043",
+      "title": "9.26　OAuth 授权、运行方式与 MCP 传输",
+      "file": "knowledge__f05-043.md",
+      "source_char_range": [
+        115061,
+        115938
+      ],
+      "source_segment_sha256": "e506cc7794a1ac40f6547a25f577c826031c526df9e38dcfb35992d5cf0b7343",
+      "packaged_sha256": "30f9f6a06ee3935935a545d407227e3fcccaa6096a39b02c0aea8fc110efd4ff"
+    },
+    {
+      "id": "f05-044",
+      "title": "9.27　凭据生命周期管理法",
+      "file": "knowledge__f05-044.md",
+      "source_char_range": [
+        115938,
+        116748
+      ],
+      "source_segment_sha256": "e47fed14227c47330a6c0263164746b1d191245827e6a380e5499e09ada0f52b",
+      "packaged_sha256": "daa9618799a89a8edc42194746a1b3ef6f7bf4863949657cd9cad9236a688046"
+    },
+    {
+      "id": "f05-047",
+      "title": "9.28　PKCE 与授权码保护",
+      "file": "knowledge__f05-047.md",
+      "source_char_range": [
+        116748,
+        117362
+      ],
+      "source_segment_sha256": "290672a81452d83382beeec8c09455b0986eace59260185e9313c03f02cfebd1",
+      "packaged_sha256": "549b442435df8cb66b67fdcdb14fabd44a1e137ecf2f44021d43dd075ed23632"
+    },
+    {
+      "id": "f05-048",
+      "title": "9.29　访问令牌的目标资源与透传边界",
+      "file": "knowledge__f05-048.md",
+      "source_char_range": [
+        117362,
+        118099
+      ],
+      "source_segment_sha256": "5e9bb2dd2a82737ebf2de856d7256a1e43731bd082b9f4cfb8d6cba242e742cf",
+      "packaged_sha256": "3ce1191d89506ecb1c98797c49f0655189f12bc1a52a2ca9fc70311bb1189af3"
+    },
+    {
+      "id": "f05-049",
+      "title": "9.30　授权服务发现与客户端登记",
+      "file": "knowledge__f05-049.md",
+      "source_char_range": [
+        118099,
+        118718
+      ],
+      "source_segment_sha256": "cfe41d1a58a667d1edf4b13345618fe5ed01bf90fae7cd7c072dea85d7ccf24a",
+      "packaged_sha256": "e3ba7e86d36c5fad0d0c988b0f3c1d33b1e03e7a3ccc4aa3b0b9dd89cc4b42bc"
+    },
+    {
+      "id": "f05-046",
+      "title": "9.31　输入、工具与外发环节的安全护栏",
+      "file": "knowledge__f05-046.md",
+      "source_char_range": [
+        118718,
+        119369
+      ],
+      "source_segment_sha256": "6f9b996085d4c7929e2088eb28e2e90581abf6d6aa014661d2883e2dede08a48",
+      "packaged_sha256": "391f76d98fc242c1ce70737cb8f29977c430998e86f6c97ae073800d4b1073b2"
+    },
+    {
+      "id": "f06-027",
+      "title": "9.32　组织身份与访问权限的生命周期",
+      "file": "knowledge__f06-027.md",
+      "source_char_range": [
+        119369,
+        119998
+      ],
+      "source_segment_sha256": "a703a0a63dc9716fac1201d89345bdd27bcfdf2ac9a07f66939e8b5a22420f73",
+      "packaged_sha256": "2aec66796df28f7855c39162937bbe0027042288aa48efa4a701584fd9c7b8ad"
+    },
+    {
+      "id": "f06-029",
+      "title": "9.33　数据、能力与过程的治理职责",
+      "file": "knowledge__f06-029.md",
+      "source_char_range": [
+        119998,
+        120800
+      ],
+      "source_segment_sha256": "76bca76de22d07522695f6bb81176969290cd881868930f3d2e1a0b1facf8484",
+      "packaged_sha256": "6d8003b2b2274a700e4af3de543c2dcd60a2f2cee3c8acc76c83355a6aba0807"
+    },
+    {
+      "id": "f05-050",
+      "title": "9.34　自动化触发与持续运行条件",
+      "file": "knowledge__f05-050.md",
+      "source_char_range": [
+        120800,
+        121400
+      ],
+      "source_segment_sha256": "112f92c03d39556310f184722adc89f0d995970d0e0fbeae74b7b6eca5d01cfc",
+      "packaged_sha256": "6edc26cd7161a01f5214f444eeb4ddbd535330c44e07a6f27d6bd076deb84ab0"
+    },
+    {
+      "id": "f05-051",
+      "title": "9.35　同步、异步、回调与任务状态",
+      "file": "knowledge__f05-051.md",
+      "source_char_range": [
+        121400,
+        122142
+      ],
+      "source_segment_sha256": "7f5ec127153e495dea70fce79328e0627115ccd37147e3c80a6921122b19e28c",
+      "packaged_sha256": "1e6ba045fefa2039cf46fb58fe6b89f79dd7daff0de9cd45b9863441487ef192"
+    },
+    {
+      "id": "f05-054",
+      "title": "9.36　最短端到端业务链构建法",
+      "file": "knowledge__f05-054.md",
+      "source_char_range": [
+        122142,
+        123063
+      ],
+      "source_segment_sha256": "2b9d2460d5137b8bf8ce253ad4411c40aa86f3dab3db487d97ee89011f965e0e",
+      "packaged_sha256": "ce8154a93bde27e36f87e1ae04bf7691779adbec1eaef7770b3375562434710c"
+    },
+    {
+      "id": "f06-001",
+      "title": "10.1　测试预期以业务依据为准",
+      "file": "knowledge__f06-001.md",
+      "source_char_range": [
+        123063,
+        123680
+      ],
+      "source_segment_sha256": "d757c2bae8237f3db83d180ebdcbc5a2148dddd054f09db8d8b9658267fd72df",
+      "packaged_sha256": "0869d985c3fea0b56726d5aad43f4b2bcd621c87c08dc01a27b9dc747dcdd0ef"
+    },
+    {
+      "id": "f06-002",
+      "title": "10.2　需求—实现—验证追溯法",
+      "file": "knowledge__f06-002.md",
+      "source_char_range": [
+        123680,
+        124267
+      ],
+      "source_segment_sha256": "204b1fe09346e7b4993a1318281a3e27c7e81689b81d6e7531a5b3d9b2df667f",
+      "packaged_sha256": "2bd1431ac709148f779bc1c5c50d19d8f96c8fb6cb228eb9f22a84867d3728b5"
+    },
+    {
+      "id": "f06-003",
+      "title": "10.3　单元测试",
+      "file": "knowledge__f06-003.md",
+      "source_char_range": [
+        124267,
+        124900
+      ],
+      "source_segment_sha256": "4eb09db3b6a940f3da011713e082444c896c2111ccca1a8e565dc71bed3f563f",
+      "packaged_sha256": "38cfaeff411d2cf798da11ddbeff3f01be8834b5115978ee78b2913531fd606f"
+    },
+    {
+      "id": "f06-004",
+      "title": "10.4　测试替身与真实集成的证据边界",
+      "file": "knowledge__f06-004.md",
+      "source_char_range": [
+        124900,
+        125492
+      ],
+      "source_segment_sha256": "087cbbc237745fc55766a04cb8deab633fe0dbcfd22b656d1d91badf181d0de8",
+      "packaged_sha256": "65a3d2634d24d1bb489374b547a51a25255e6735af1199993ae323e6567c321b"
+    },
+    {
+      "id": "f06-005",
+      "title": "10.5　关键业务路径冒烟验证法",
+      "file": "knowledge__f06-005.md",
+      "source_char_range": [
+        125492,
+        126107
+      ],
+      "source_segment_sha256": "ec1196a19f062f82c7480646b7134e6f41712d27ab893aa98fe219f6e3780a88",
+      "packaged_sha256": "627a8053d5d8cd49e2b15b1aafe73bff5499a1d714ba945c54bb8a2e0ec6279c"
+    },
+    {
+      "id": "f06-007",
+      "title": "10.6　AI辅助测试中的责任边界",
+      "file": "knowledge__f06-007.md",
+      "source_char_range": [
+        126107,
+        126743
+      ],
+      "source_segment_sha256": "87c50d1990b82ef2623061d2f9142d53d4f4f99ddf91d7db2d7d9cfd3b87f3d6",
+      "packaged_sha256": "b142869cf44cea406694611eeb0fbdf05aab958db15603c558ed925301a275d7"
+    },
+    {
+      "id": "f06-008",
+      "title": "10.7　AI生成代码的分层审查法",
+      "file": "knowledge__f06-008.md",
+      "source_char_range": [
+        126743,
+        127462
+      ],
+      "source_segment_sha256": "47c969ce06d10e18ef5d11f17c6735ee6f712f3044747e2c67d4661cf64f2d5f",
+      "packaged_sha256": "95ef4c7699f83e48c63a98ad1c38fc2d29f12cfdaa210240c5ccf35c3ebc2e85"
+    },
+    {
+      "id": "f06-006",
+      "title": "10.8　版本绑定与修复回归法",
+      "file": "knowledge__f06-006.md",
+      "source_char_range": [
+        127462,
+        128116
+      ],
+      "source_segment_sha256": "aa327a435be3bf27f339a245ae067422ed3c7e00dcbb5ea9cc3f2368298a8fba",
+      "packaged_sha256": "e99aaf2fea8290f757f5e2669fcb296625612b579c07cbd3e9b1cc048593f72b"
+    },
+    {
+      "id": "f06-009",
+      "title": "10.9　分层评测集与回归维护法",
+      "file": "knowledge__f06-009.md",
+      "source_char_range": [
+        128116,
+        128845
+      ],
+      "source_segment_sha256": "a176f9a24238e9c125e6d3216170d114f0fc22eb177e91a41fbfe58a9de10db7",
+      "packaged_sha256": "d1e4b8b8d1391f612a5dbf67a04e432922aaed64c7140ebdcf55e62cc913b723"
+    },
+    {
+      "id": "f06-013",
+      "title": "10.10　准确率、精确率、召回率与错误分母",
+      "file": "knowledge__f06-013.md",
+      "source_char_range": [
+        128845,
+        129798
+      ],
+      "source_segment_sha256": "c5805389301d3a1e59b4581a0e65307d2d00e3a50c67079b61230f02d75784dd",
+      "packaged_sha256": "02c78dd54cfc0e896d4cac2e6fbbe23e495e043558959279963a7f781007a9ff"
+    },
+    {
+      "id": "f06-016",
+      "title": "10.11　人工参照复核与分歧处理法",
+      "file": "knowledge__f06-016.md",
+      "source_char_range": [
+        129798,
+        130454
+      ],
+      "source_segment_sha256": "803065f763418188a8324004564f2ed68bbd329571466f59dca5f2c2f0de06ef",
+      "packaged_sha256": "841494f693b4440908803031e84a67410d222cbc2fa46bb226b7f90336f27081"
+    },
+    {
+      "id": "f06-010",
+      "title": "10.12　生成结果的业务用途评价法",
+      "file": "knowledge__f06-010.md",
+      "source_char_range": [
+        130454,
+        131049
+      ],
+      "source_segment_sha256": "b8405b249b83356526b8161de951a0281449ee2e181447554b3af7df83384ab8",
+      "packaged_sha256": "ff2122a68fa0ef769c8ea2255629e7c8e46b5941bca5cbb518985a7bbd4dd077"
+    },
+    {
+      "id": "f06-011",
+      "title": "10.13　同条件重复运行验证法",
+      "file": "knowledge__f06-011.md",
+      "source_char_range": [
+        131049,
+        131640
+      ],
+      "source_segment_sha256": "32efcd201479adc553611b3987d70ffb9c853a0f28d215718b9fc2b71b52ddfc",
+      "packaged_sha256": "0d4e842e481f818be6d0fe5396603fe3df7de6d0269d520c42b6ae464d1d430f"
+    },
+    {
+      "id": "f06-014",
+      "title": "10.14　拒答与人工介入的评价边界",
+      "file": "knowledge__f06-014.md",
+      "source_char_range": [
+        131640,
+        132275
+      ],
+      "source_segment_sha256": "562dc0236a6b6e2c9a1bd1ea0a742c0453f2f6a9b1e41a75c9df55d959f0fbe3",
+      "packaged_sha256": "9da46b35d10d928f21baf12700647fd816e9c7e7ac3539fc529169cecc7d6f6f"
+    },
+    {
+      "id": "f06-015",
+      "title": "10.15　响应延迟、长尾与分段耗时",
+      "file": "knowledge__f06-015.md",
+      "source_char_range": [
+        132275,
+        132980
+      ],
+      "source_segment_sha256": "8e3aaf2b8095e5b4b1ffe1aebe173cc681fd18c9099347331f1fe499e68f6bc5",
+      "packaged_sha256": "e3ff0fd28e39051a97e4c5f119a5c0ab3e95f1342c9b6efc2ee6df913039af79"
+    },
+    {
+      "id": "f06-026",
+      "title": "10.16　SLI、SLO与SLA",
+      "file": "knowledge__f06-026.md",
+      "source_char_range": [
+        132980,
+        133743
+      ],
+      "source_segment_sha256": "124bc79bf15942da57ed6ded09928ee5c3eb5efa9f27b227bdf19d73d6540275",
+      "packaged_sha256": "c748605bc514be5cad9d4fc0bfd363bb8f228482acb8a86e268218b2f0c5ffa0"
+    },
+    {
+      "id": "f06-030",
+      "title": "10.17　日志与Trace执行轨迹",
+      "file": "knowledge__f06-030.md",
+      "source_char_range": [
+        133743,
+        134459
+      ],
+      "source_segment_sha256": "3faab09369787e3667c41d019a02f2205cc753d98ae36b50dd62c7080f8d3fb9",
+      "packaged_sha256": "d57284ca165c0f616d4baceb985ae8027aba6099978c729278b8eae09388f1c2"
+    },
+    {
+      "id": "f06-020",
+      "title": "10.18　外部接入的分层假设验证法",
+      "file": "knowledge__f06-020.md",
+      "source_char_range": [
+        134459,
+        135242
+      ],
+      "source_segment_sha256": "4b30a235cb41b2d5bdef9c495327cfe52e1aed41fde2a4572832914175e80bb6",
+      "packaged_sha256": "93df620aae7a92416e69b329f363292b9b4599fdfe1efe2cbdd16debc6d3c2a2"
+    },
+    {
+      "id": "f06-019",
+      "title": "10.19　业务异常的三层证据归因法",
+      "file": "knowledge__f06-019.md",
+      "source_char_range": [
+        135242,
+        135998
+      ],
+      "source_segment_sha256": "3df86105bb4a70c6d5e28f67b5544fc783be21c3bd95bda74b580c0405be2058",
+      "packaged_sha256": "1df8009bb89b796a60b384ae3a9c7d8ecd6bfcdd44bb9ccd1d61773037cff35e"
+    },
+    {
+      "id": "f06-017",
+      "title": "10.20　权限拒绝后的执行与反馈",
+      "file": "knowledge__f06-017.md",
+      "source_char_range": [
+        135998,
+        136586
+      ],
+      "source_segment_sha256": "3e927e090db427066fa50f126f47d54787664dab4e67a18d45f112a0e8735fd9",
+      "packaged_sha256": "acf50e075caeac724525e6d4ce60b96f3d7bf0315eb5529db3859e6eb1c2db2e"
+    },
+    {
+      "id": "f06-018",
+      "title": "10.21　允许—拒绝双向权限验证法",
+      "file": "knowledge__f06-018.md",
+      "source_char_range": [
+        136586,
+        137203
+      ],
+      "source_segment_sha256": "4a82249955d578ccca809dfe85b85af54e570ddc96532b431b0d50a07ed366d2",
+      "packaged_sha256": "85243bd3212f8c342c7f0b33dd96a022fb2e444a911a83d6d8454f84b4265b1d"
+    },
+    {
+      "id": "f06-021",
+      "title": "10.22　缺输入、接口失败与人工接手的分流",
+      "file": "knowledge__f06-021.md",
+      "source_char_range": [
+        137203,
+        137867
+      ],
+      "source_segment_sha256": "7300a665133579dbc452d158bc9e0fb8e9b3613f78ebab3a6d803827319bc5d2",
+      "packaged_sha256": "ee7e1a4cd828feca477457f3a69e2a945cf8f31c8e405a71c3eb77ec3ded469e"
+    },
+    {
+      "id": "f06-022",
+      "title": "10.23　外部写入结果未知时的处理",
+      "file": "knowledge__f06-022.md",
+      "source_char_range": [
+        137867,
+        138548
+      ],
+      "source_segment_sha256": "e88cc92366a6a7bd3ee8628eb124278279ec585a847120d3282f29fee0353d21",
+      "packaged_sha256": "f9542dd9b6baf7ce15322f5161895f5e340e6ccdcc03b57a68b150347355e689"
+    },
+    {
+      "id": "f06-023",
+      "title": "10.24　人工审批关卡与状态恢复法",
+      "file": "knowledge__f06-023.md",
+      "source_char_range": [
+        138548,
+        139466
+      ],
+      "source_segment_sha256": "ca7eaa365c7608b3622c438e2c306f642876db6582b8d0d77702464d28b75467",
+      "packaged_sha256": "cb35d9ae96ddb807aa65a0298581ad9e90332eacf095ded09d8c52cf9140a645"
+    },
+    {
+      "id": "f06-024",
+      "title": "10.25　自动化偏误与有效人工复核",
+      "file": "knowledge__f06-024.md",
+      "source_char_range": [
+        139466,
+        140113
+      ],
+      "source_segment_sha256": "fabea6251a510c6677a144cfaef83d697eb0873a9d715b3a1924a05a1c5501bb",
+      "packaged_sha256": "7c6a8be4fb30aa9f8695fff876664e22eb64df9bf4710d28da9b0f194d25d594"
+    },
+    {
+      "id": "f06-025",
+      "title": "10.26　业务证据链与风险展示法",
+      "file": "knowledge__f06-025.md",
+      "source_char_range": [
+        140113,
+        140926
+      ],
+      "source_segment_sha256": "cb5684567cccdad1c87b1fc92ccb274f5c60a9dda01e9e2bdd617e67e290d7d2",
+      "packaged_sha256": "d0a090045e7d3cbe02e1c66ebd84f992e0375d6742ea7c818cd40edf34d1847e"
+    },
+    {
+      "id": "f06-035",
+      "title": "11.1　业务维护、技术维护与问题汇总的责任",
+      "file": "knowledge__f06-035.md",
+      "source_char_range": [
+        140926,
+        141603
+      ],
+      "source_segment_sha256": "0543b14133aba6994f8e48e6ef204a1eeb689a40cdb9293083e936cf09d94a61",
+      "packaged_sha256": "4e67f1a8f913890efded6db2cb46894b729fee6f9edd6dfae68a7a27faf1acfd"
+    },
+    {
+      "id": "f06-032",
+      "title": "11.2　日常任务导向的接管设计法",
+      "file": "knowledge__f06-032.md",
+      "source_char_range": [
+        141603,
+        142258
+      ],
+      "source_segment_sha256": "9d699986762fc634d16c14ac399ba07a8a5bea8a0c4c6f504be14ef77cd19052",
+      "packaged_sha256": "0d5205eb8a00d2639015ee91b44dc86fbc95a84dea4d07669795e88c6c4213c1"
+    },
+    {
+      "id": "f06-034",
+      "title": "11.3　账号控制与持续费用归属核验法",
+      "file": "knowledge__f06-034.md",
+      "source_char_range": [
+        142258,
+        142937
+      ],
+      "source_segment_sha256": "a956b2a9147e73c81d31d4a83d7d3cd11fff73d6298d442cab240f397e8581b2",
+      "packaged_sha256": "22c15ce74e0616834fed14b417bb9b79b688e5ea735a3e49bd0aae126b27b964"
+    },
+    {
+      "id": "f06-039",
+      "title": "11.4　支持服务范围与响应机制设计法",
+      "file": "knowledge__f06-039.md",
+      "source_char_range": [
+        142937,
+        143635
+      ],
+      "source_segment_sha256": "6d7e3cbaf82193687bbef9267368eee86f601093447868ef98a8e624a89c19eb",
+      "packaged_sha256": "9f3137acf3e604f6b84e13d77e50b5f20731bba36067a9668b0dd320ff539460"
+    },
+    {
+      "id": "f06-033",
+      "title": "11.5　客户独立操作接管验证法",
+      "file": "knowledge__f06-033.md",
+      "source_char_range": [
+        143635,
+        144234
+      ],
+      "source_segment_sha256": "fcb41c3730715610f4f2d17e6018bb870158d730262ef27348a764ea456f78c4",
+      "packaged_sha256": "40cea1e898d854a1f06a02f0c4b64fdca11d2bfbe451fee887f4437dd602f6c7"
+    },
+    {
+      "id": "f06-036",
+      "title": "11.6　接管故障演练与恢复验证法",
+      "file": "knowledge__f06-036.md",
+      "source_char_range": [
+        144234,
+        144952
+      ],
+      "source_segment_sha256": "b311ad388752def1313d3664d80478e96c61d7e91060695e55cf161bbff198cc",
+      "packaged_sha256": "c35b737bce81874cae34ca2a99eab995ba0df77baad4eba55d24fbc27563ca33"
+    },
+    {
+      "id": "f06-028",
+      "title": "11.7　共享资源发布与双向权限验证法",
+      "file": "knowledge__f06-028.md",
+      "source_char_range": [
+        144952,
+        145629
+      ],
+      "source_segment_sha256": "70e937dc5299cb6e22ebba6c40250e5d2e1cd8df6179ca25d2047d1d811e1eb2",
+      "packaged_sha256": "258658b304b091d0788168b3a3f2bec1a60212833ac763fd27951c76d95c31b7"
+    },
+    {
+      "id": "f06-031",
+      "title": "11.8　上线证据审查与责任确认法",
+      "file": "knowledge__f06-031.md",
+      "source_char_range": [
+        145629,
+        146370
+      ],
+      "source_segment_sha256": "561d14288b6a1c6976f2618c0ec43970e7e4608d9004ac1c8e4dc1befdd879a8",
+      "packaged_sha256": "819233f97a63d78eef18d489c61408b2d0922f2137f8313f5998cd0f6e120bd1"
+    },
+    {
+      "id": "f08-001",
+      "title": "11.9　验收启动条件核验法",
+      "file": "knowledge__f08-001.md",
+      "source_char_range": [
+        146370,
+        147139
+      ],
+      "source_segment_sha256": "414805870be42e62ae89e5dfa67190ba1ea7c7139248773e5569205ec46cfb5b",
+      "packaged_sha256": "280d1ac85c6dbea2fcaccc794048a3ec2f2ddf95220618cf31775626aeabeaf0"
+    },
+    {
+      "id": "f08-002",
+      "title": "11.10　验收范围、版本与确认机制核验法",
+      "file": "knowledge__f08-002.md",
+      "source_char_range": [
+        147139,
+        147817
+      ],
+      "source_segment_sha256": "77bbeebd702fc64bd6e8c0b9a79a646938e43edba00951815dcf98aadc1ad63b",
+      "packaged_sha256": "5ad88b8862f68d88a4f92bd530e8ce785baeee989baaf0112f0412198c67411f"
+    },
+    {
+      "id": "f08-003",
+      "title": "11.11　验收反馈与沉默的效力",
+      "file": "knowledge__f08-003.md",
+      "source_char_range": [
+        147817,
+        148546
+      ],
+      "source_segment_sha256": "2e83b80a2e572e02c9666bdc106f6505631d65ffecd48513abeb4100209b11a0",
+      "packaged_sha256": "d484b156b6363bae95f3bb019243a21d970bd722e3968ce940180b072c48c652"
+    },
+    {
+      "id": "f08-004",
+      "title": "11.12　验收反馈修复与版本重提法",
+      "file": "knowledge__f08-004.md",
+      "source_char_range": [
+        148546,
+        149363
+      ],
+      "source_segment_sha256": "a4a0fbddeb72423725a203a924daa8c3e50dd2153448c2fb7426e7016800c34f",
+      "packaged_sha256": "495c1ad0db6c74ed822a18b79faee76fef99765367744fdf56d2e0fe17cf112c"
+    },
+    {
+      "id": "f08-006",
+      "title": "11.13　尾款、维护费与运行费",
+      "file": "knowledge__f08-006.md",
+      "source_char_range": [
+        149363,
+        150053
+      ],
+      "source_segment_sha256": "53d8fce6d61e0a9e382f8ef80a21bce8ab1cde93a9d8a20878fda5a5c009663d",
+      "packaged_sha256": "e504e534881e16356c0811deb8b9dec308889442aed2e630003471f5ab2e3123"
+    },
+    {
+      "id": "f08-005",
+      "title": "11.14　账单、开票与实际到账",
+      "file": "knowledge__f08-005.md",
+      "source_char_range": [
+        150053,
+        150739
+      ],
+      "source_segment_sha256": "388d18651cd54ee1775d3ab72cb1194cc5f2a5ee81fe1acbf1e44aea94a53a6b",
+      "packaged_sha256": "8c16157ec9db3e7e4fbeea8f762f19ea2e66bb0953960e62f1f3ddb6a347b767"
+    },
+    {
+      "id": "f08-007",
+      "title": "11.15　成果、结算与后续责任收尾核对法",
+      "file": "knowledge__f08-007.md",
+      "source_char_range": [
+        150739,
+        151709
+      ],
+      "source_segment_sha256": "cc60caf4a0ee23c47d8861ef0d0de72295d6a4dd58fb8b7db2b283e2aca81b40",
+      "packaged_sha256": "45f62d4d4ae3b44e8b5d6aeda916f90c5a92eceb795bf25dae51d303e81c8040"
+    },
+    {
+      "id": "f06-037",
+      "title": "11.16　交接未完成还是约定的持续支持",
+      "file": "knowledge__f06-037.md",
+      "source_char_range": [
+        151709,
+        152369
+      ],
+      "source_segment_sha256": "77fcd535c15fdeaefd25ef25a7cd907bdc6c64f7dd1099241fc58dd6a056d3d9",
+      "packaged_sha256": "86f43f63e7df7cf8c3fd77c3910d61ad0f4c0d6affee422b4166e4142ddd6a13"
+    },
+    {
+      "id": "f06-038",
+      "title": "11.17　维护反馈受理与事项分流法",
+      "file": "knowledge__f06-038.md",
+      "source_char_range": [
+        152369,
+        153078
+      ],
+      "source_segment_sha256": "98906220d03c8d6721877b7b909506ada376e2e806156ccc90cc5fa21ed2e389",
+      "packaged_sha256": "fbe8464ad1fec571d5a72defcd204b4b1323be4f3d7d879ebdd4dfece8880e6d"
+    },
+    {
+      "id": "f06-040",
+      "title": "11.18　故障修复后的业务恢复核验法",
+      "file": "knowledge__f06-040.md",
+      "source_char_range": [
+        153078,
+        153791
+      ],
+      "source_segment_sha256": "72b020f6ebec967a45efee66738ac5dc5eb8460eb7d49670807d038b3a0d913e",
+      "packaged_sha256": "390a759de20b0a83c3ef2149a70320aa2f2ebf88258513ae76ca233bd6fe91e6"
+    },
+    {
+      "id": "f08-008",
+      "title": "11.19　项目退出与能力退役核验法",
+      "file": "knowledge__f08-008.md",
+      "source_char_range": [
+        153791,
+        154591
+      ],
+      "source_segment_sha256": "52f525b4a4489415b03a549e6099484e97cb50cd7216c2ec3efb305c02d66105",
+      "packaged_sha256": "56b9f42413238e3a76915639bbb251fce6cbadaa44f625ec6a6cf3e8456f8567"
+    },
+    {
+      "id": "f07-017",
+      "title": "12.1　个人使用如何影响组织生产力",
+      "file": "knowledge__f07-017.md",
+      "source_char_range": [
+        154591,
+        155374
+      ],
+      "source_segment_sha256": "8ad0cbce3cd4452dd02b7a3564a5281fc25a9500e2e48da4777975f3ed8423c4",
+      "packaged_sha256": "1fe62a2ee4785bc412809f9aab17006e8da350ad339746c4c64750cd1e785f3b"
+    },
+    {
+      "id": "f07-018",
+      "title": "12.2　组织推广中的职责、收益与新增负担",
+      "file": "knowledge__f07-018.md",
+      "source_char_range": [
+        155374,
+        156006
+      ],
+      "source_segment_sha256": "fd07ce96de2f204f7a2102e1be66998dc5269026686444727b6a09bc9411e4bd",
+      "packaged_sha256": "1186c8de55c262e475dff9d46d9aab294d5b7fd5ab482b0aef0c3e03eeb67285"
+    },
+    {
+      "id": "f07-019",
+      "title": "12.3　一线采纳障碍诊断法",
+      "file": "knowledge__f07-019.md",
+      "source_char_range": [
+        156006,
+        156657
+      ],
+      "source_segment_sha256": "9ed0ba47a4976bd25512babd09f84d13b2ad0543400d97d6d454160a2828b88c",
+      "packaged_sha256": "12947704e16d39e22b5f5fb6561e93c129654507cab147d319d81b977ad5f0d3"
+    },
+    {
+      "id": "f07-020",
+      "title": "12.4　管理配合障碍与角色调整法",
+      "file": "knowledge__f07-020.md",
+      "source_char_range": [
+        156657,
+        157278
+      ],
+      "source_segment_sha256": "73730c98c01f7014e24057b292daac30c9cecb6772d55c1a21908f3a637f382b",
+      "packaged_sha256": "77990da51ff6924d0ff36b7e61290977fb5feeb693e3248fdaa8ad43f1fac14a"
+    },
+    {
+      "id": "f07-021",
+      "title": "12.5　知识贡献的署名、收益、边界与参与",
+      "file": "knowledge__f07-021.md",
+      "source_char_range": [
+        157278,
+        157949
+      ],
+      "source_segment_sha256": "6f0b4fefec8ff26b58e1209041c3028fcde91620a11d4b86060c4cbbc560d924",
+      "packaged_sha256": "e96abf2b83fb81b9a800755645fbec8fa6e60defcacf2987b304ac9f02a61aa7"
+    },
+    {
+      "id": "f08-010",
+      "title": "12.6　持续采纳与有效任务使用",
+      "file": "knowledge__f08-010.md",
+      "source_char_range": [
+        157949,
+        158646
+      ],
+      "source_segment_sha256": "94f7f474560f86eec856b34164187c73489fc7dcb70931153652a54c39b5625c",
+      "packaged_sha256": "939279054fc4974b4fede43314fffe5bb5e9b96e6c46afb88eb38f5568140735"
+    },
+    {
+      "id": "f08-012",
+      "title": "12.7　交付、复用与接管的评价依据",
+      "file": "knowledge__f08-012.md",
+      "source_char_range": [
+        158646,
+        159402
+      ],
+      "source_segment_sha256": "b9c1ce7010e021c60948aa0bf401a1e1c6864ab997de5f4f94bea507915b8f3b",
+      "packaged_sha256": "f6e349caaa40b0d814cc1b914d369892107a46fe60f47b54966833e0ec3a3b3f"
+    },
+    {
+      "id": "f08-014",
+      "title": "12.8　单项任务验证与分步扩展",
+      "file": "knowledge__f08-014.md",
+      "source_char_range": [
+        159402,
+        160204
+      ],
+      "source_segment_sha256": "33b325824610f8085c848bab0d42b3937c8dcb212a5f2cdda4907cc0aa746a12",
+      "packaged_sha256": "91bcffa98ce3c9c2f730ee44abc5afa238b446780b2915de43e44c3d44e13f27"
+    },
+    {
+      "id": "f08-009",
+      "title": "13.1　项目经营投入回填法",
+      "file": "knowledge__f08-009.md",
+      "source_char_range": [
+        160204,
+        160863
+      ],
+      "source_segment_sha256": "f6ae34986ceeb92ac6d24f37ae24570d8d020426a997ef9a5752e585989e4ce6",
+      "packaged_sha256": "206014109361a93aab01a234ada244ccda33faf6daa9a6704bad4171b14a6dab"
+    },
+    {
+      "id": "f08-022",
+      "title": "13.2　关键决定与取舍依据记录法",
+      "file": "knowledge__f08-022.md",
+      "source_char_range": [
+        160863,
+        161528
+      ],
+      "source_segment_sha256": "c3a557b7239c43b53087b2c4dad22a1ce3e2d1d20e0ea55a272d756212311915",
+      "packaged_sha256": "4ace362c551cb59ad5687ad73af3ac8f7bf974319985a80c8155f70f896db659"
+    },
+    {
+      "id": "f08-023",
+      "title": "13.3　判断记录的时点与有效边界",
+      "file": "knowledge__f08-023.md",
+      "source_char_range": [
+        161528,
+        162217
+      ],
+      "source_segment_sha256": "87aea8c0fa6cb78d90f9dc553dfbf10f596f408b4578621d98637d7763ec1593",
+      "packaged_sha256": "a7f011cc4b2552496c231fa6e4d794905dc46f02dbc5b1d5e68b79c150c5825d"
+    },
+    {
+      "id": "f08-024",
+      "title": "13.4　相似案例条件差异比较法",
+      "file": "knowledge__f08-024.md",
+      "source_char_range": [
+        162217,
+        162843
+      ],
+      "source_segment_sha256": "c7f535e1c00e3e03eb60740f67077b084080f7033fa977f3e8e79d8bb040f4ff",
+      "packaged_sha256": "1a46b871d0575cde2e62a731e1b9de07cf7b9d6bbb3a23cd8c87c83a3133d362"
+    },
+    {
+      "id": "f08-028",
+      "title": "13.5　行业成败叙述的实践证据核验法",
+      "file": "knowledge__f08-028.md",
+      "source_char_range": [
+        162843,
+        163609
+      ],
+      "source_segment_sha256": "54b9dd4829cb9dd1ed7d0c6f2fb2b64aa858a21f41add50d03edfa035143b741",
+      "packaged_sha256": "c9faada647afd346b76dac0381647a0c812107bb30a14bbcaaa14d5b149e26a0"
+    },
+    {
+      "id": "f01-025",
+      "title": "13.6　可复用能力建设的冷启动规划法",
+      "file": "knowledge__f01-025.md",
+      "source_char_range": [
+        163609,
+        164227
+      ],
+      "source_segment_sha256": "c9501756b05c0f584fb4c06bef88b26d6124594219a627f5935d1531821266a5",
+      "packaged_sha256": "dd0439d5a269c8b6a8ef4a10f3c3424bb6282ea9ed5ab00170c16f22f36d1373"
+    },
+    {
+      "id": "f08-015",
+      "title": "13.7　重复劳动中的稳定过程识别法",
+      "file": "knowledge__f08-015.md",
+      "source_char_range": [
+        164227,
+        164826
+      ],
+      "source_segment_sha256": "ce7ad3853c98cb59aa0517c8e425a84b2b11a045778ac717923707a673905fff",
+      "packaged_sha256": "e3d0e52a64bb57346a9bdc581f9245bbf79c3f59a8085510da135d87141390de"
+    },
+    {
+      "id": "f08-016",
+      "title": "13.8　可调用过程的最小规格",
+      "file": "knowledge__f08-016.md",
+      "source_char_range": [
+        164826,
+        165509
+      ],
+      "source_segment_sha256": "9cb3461c1eb03e4cd2f1db8096dcb624fd1830e680af2ab1564255d8e7d5a18c",
+      "packaged_sha256": "2f76e409b57fabfc90a7b2d5219f29739b77b5933da990faba492c7be8b0797e"
+    },
+    {
+      "id": "f08-017",
+      "title": "13.9　复用过程分层与配置隔离法",
+      "file": "knowledge__f08-017.md",
+      "source_char_range": [
+        165509,
+        166318
+      ],
+      "source_segment_sha256": "2e180477a2ff5c16d1f00d74763ae3456c5821b52935f2f0831aaa6c75e30584",
+      "packaged_sha256": "faeedf44a646efb4a3e5982e21b4cab0f90f77b57cf9aa9d690d505fccff10f7"
+    },
+    {
+      "id": "f08-019",
+      "title": "13.10　客户交接资料与跨项目复用资产",
+      "file": "knowledge__f08-019.md",
+      "source_char_range": [
+        166318,
+        166984
+      ],
+      "source_segment_sha256": "71c9acc4eb799bc211c3e124a1b2657b5eafeb85241b4eb33166f031553da3f7",
+      "packaged_sha256": "882892ea170ff71ab0324bc7253536b2b8cb117679a39c630613aa485bbeb1d9"
+    },
+    {
+      "id": "f08-020",
+      "title": "13.11　复用资产的隔离、版本、检索与反馈",
+      "file": "knowledge__f08-020.md",
+      "source_char_range": [
+        166984,
+        167724
+      ],
+      "source_segment_sha256": "7d3210eeb3c13c1443bdda06d2c386ef71a1e8b692154bce771ac3ca77bf9430",
+      "packaged_sha256": "73e27fb4c874906ed2c5eed04fab2a006ec0a76e2a5bb74a64902095f0b1ee85"
+    },
+    {
+      "id": "f08-013",
+      "title": "13.12　复用投资的累计成本",
+      "file": "knowledge__f08-013.md",
+      "source_char_range": [
+        167724,
+        168783
+      ],
+      "source_segment_sha256": "af32080f13d8baabb0ba7205d4b8a726ca65fd6c4856f6586f7fc6b1badca3b0",
+      "packaged_sha256": "a280be6654882b84cedc167fef4ec7ce67ae8fcf8872c6b59b2b6f13cf7bfcce"
+    },
+    {
+      "id": "f08-018",
+      "title": "13.13　新材料与新使用者复用验证法",
+      "file": "knowledge__f08-018.md",
+      "source_char_range": [
+        168783,
+        169485
+      ],
+      "source_segment_sha256": "398db2fe860f7af6b75988204b0e51ffc0912e7d7bd051e8a80dee780587003d",
+      "packaged_sha256": "5bbf537d8ed5f80abb4dde990bcdd3e0a75df464bcef6e5df245c405c6e246a9"
+    },
+    {
+      "id": "f08-021",
+      "title": "13.14　审核场景迁移与受控验证法",
+      "file": "knowledge__f08-021.md",
+      "source_char_range": [
+        169485,
+        170223
+      ],
+      "source_segment_sha256": "b7efc8764dc8810a35c0e0ca55678e4d4f5b20e2d2a9b7fe5363122a068c4348",
+      "packaged_sha256": "77f46d5a4cb331debb62bd8d2851ac777c174e092d3cdd7f08cd713755d5d359"
+    },
+    {
+      "id": "f08-025",
+      "title": "13.15　反证回写与知识有效性维护法",
+      "file": "knowledge__f08-025.md",
+      "source_char_range": [
+        170223,
+        170829
+      ],
+      "source_segment_sha256": "1439a1c746812f70741ba39fded43d338dbde85d5cc981f421d25da6d4f573ed",
+      "packaged_sha256": "26d0c141b0b405279c73a45a1857224a9948f8814e1e5803a24aa24597b76e85"
+    },
+    {
+      "id": "f08-026",
+      "title": "13.16　评测、候选迭代与受控发布法",
+      "file": "knowledge__f08-026.md",
+      "source_char_range": [
+        170829,
+        171524
+      ],
+      "source_segment_sha256": "228aebefc177bc40ad16298b49ee4a6703dc1a59164d4ca26a739425d99024aa",
+      "packaged_sha256": "435a0b8bf8b8a5bee3019177420973e8925ed2b81a845acd9805a41e100490c3"
+    },
+    {
+      "id": "f01-010",
+      "title": "13.17　真实任务训练与迁移验证法",
+      "file": "knowledge__f01-010.md",
+      "source_char_range": [
+        171524,
+        172223
+      ],
+      "source_segment_sha256": "84da8cdd8b1a0544f1b11aa50478bc02504c8f4d4add30a20c1bbc0f271c0276",
+      "packaged_sha256": "c5b1c1ed3c51b5dede7b1887edd9673459c7ace6811611ff959e98e486c77b28"
+    },
+    {
+      "id": "f08-027",
+      "title": "13.18　教练反馈与独立迁移验证法",
+      "file": "knowledge__f08-027.md",
+      "source_char_range": [
+        172223,
+        172887
+      ],
+      "source_segment_sha256": "c9022cfdec7ad051b280e871d0d93cf5f913124ea98d7b2330051c7981776600",
+      "packaged_sha256": "8ab5e91eba5f204f677c96509da5eee815c0ffbe1119434168a297645e29179e"
+    }
+  ],
+  "packaging_transform": "Preserve prose; rewrite cross-file links; normalize trailing EOF whitespace."
+}
